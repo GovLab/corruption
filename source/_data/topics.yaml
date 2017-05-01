@@ -2,8 +2,8 @@
 # Topics
 
 - title: RASTREANDO Y ANALIZANDO LOS FLUJOS DE DINERO
-  slug: evaluar-la-conciencia-publica
-  conference_slug: evaluar-la-conciencia-publica-conference
+  slug: rastreando-y-analizando-los-flujos-de-dinero
+  conference_slug: rastreando-y-analizando-los-flujos-de-dinero-conference
   id: 00
   is_active: true
   image: assessing-public-awareness.jpg
@@ -272,8 +272,8 @@
       url: https://medium.com/smarter-crowdsourcing/enhancing-how-governments-assess-awareness-of-zika-15622564c00b#.ajkml2pfm
 
 - title: DENUNCIAS ASOCIADAS A CORRUPCIÓN E IRREGULARIDADES
-  slug: comunicacion-y-cambio-de-conductas
-  conference_slug: comunicacion-y-cambio-de-conductas-conference
+  slug: denuncias-asociadas-a-corrupcion-e-irregularidades
+  conference_slug: denuncias-asociadas-a-corrupcion-e-irregularidades-conference
   id: 01
   is_active: true
   image: communication-and-behavior-change.jpg
@@ -520,8 +520,8 @@
       #   url: www.example.com
 
 - title: CORRUPCIÓN JUDICIAL EN GENERAL
-  slug: aprendizaje-pertinente
-  conference_slug: aprendizaje-pertinente-conference
+  slug: corrupcion-judicial-en-general
+  conference_slug: corrupcion-judicial-en-general-conference
   id: 02
   is_active: false
   image:
@@ -556,8 +556,8 @@
     resources:
 
 - title: JUICIOS EFECTIVOS EN MATERIA DE CORRUPCIÓN
-  slug: gobernanza-y-coordinacion
-  conference_slug: gobernanza-y-coordinacion-conference
+  slug: juicios-efectivos-en-materia-de-corrupcion
+  conference_slug: juicios-efectivos-en-materia-de-corrupcion-conference
   id: 03
   is_active: false
   image:
@@ -591,8 +591,8 @@
     resources:
 
 - title: MEDICIÓN EFECTIVA DE LA CORRUPCIÓN Y SUS COSTOS
-  slug: analisis-predictivo
-  conference_slug: analisis-predictivo-conference
+  slug: medicion-efectiva-de-la-corrupcion-y-sus-costos
+  conference_slug: medicion-efectiva-de-la-corrupcion-y-sus-costos-conference
   id: 04
   is_active: true
   image: predictive-analytics.jpg
@@ -793,8 +793,8 @@
     resources:
 
 - title: PARTICIPACIÓN COMUNITARIA EN LA CREACIÓN DE POLÍTICAS PÚBLICAS DE COMBATE A LA CORRUPCIÓN
-  slug: la-basura-y-el-agua-estancada
-  conference_slug: la-basura-y-el-agua-estancada-conference
+  slug: participacion-comunitaria-en-la-creacion-de-politicas-publicas-de-combate-a-la-corrupcion
+  conference_slug: participacion-comunitaria-en-la-creacion-de-politicas-publicas-de-combate-a-la-corrupcion-conference
   id: 05
   is_active: true
   image: trash-bw.jpg
@@ -1018,8 +1018,8 @@
     resources:
 
 - title: REFORMA DEL SECTOR PÚBLICO
-  slug: recoleccion-de-informacion--gobernanza-de-datos
-  conference_slug: recoleccion-de-informacion--gobernanza-de-datos-conference
+  slug: reforma-del-sector-publico
+  conference_slug: reforma-del-sector-publico-conference
   id: 07
   is_active: true
   image: infocollection-bw.jpg
