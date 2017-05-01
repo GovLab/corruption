@@ -1,14 +1,14 @@
 ---
 # Topics
 
-- title: EVALUAR LA CONCIENCIA PÚBLICA
+- title: RASTREANDO Y ANALIZANDO LOS FLUJOS DE DINERO
   slug: evaluar-la-conciencia-publica
   conference_slug: evaluar-la-conciencia-publica-conference
   id: 00
   is_active: true
   image: assessing-public-awareness.jpg
   short_description: >
-    ¿Cuáles son los medios más efectivos para suscitar la comprensión pública de las enfermedades transmitidas por mosquitos? ¿Cómo usar estos hallazgos para apoyar el diseño de campañas orientadas a mejorar la concientización pública?
+    ¿Qué tipo de tecnología y enfoques basados en datos podrían utilizar tanto el gobierno como la sociedad civil para prevenir y detectar casos de corrupción en las nanzas públicas?
   focus: Las campañas de salud pública para prevenir la infección pueden ser perfeccionadas con más prácticas basadas en evidencia que contribuyan a una mejor comprensión pública de las enfermedades transmitidas por mosquitos (ETM) y sus consecuencias. El objetivo de esta sesión es identificar métodos innovadores y efectivos para conocer lo que la gente sabe y lo que no sabe.
   topic_description_summary: Los problemas fueron expuestos en un informe resumido con el objetivo de describir la causa del problema, los enfoques actuales en los diferentes países y las lecciones aprendidas de otros campos.
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
@@ -21,7 +21,7 @@
     rec_slug: assessing-understanding
     short_description: >
       What are the most effective ways to capture the public's understanding of mosquito born diseases? How to use these findings to inform the design of campaigns to improve public awareness?
-    focus: > 
+    focus: >
       Public health campaigns to prevent infection can be improved with more evidence-based practices that afford greater insight into the current state of public understanding of mosquito borne diseases and their consequences. The goal of this session is to identify innovative and effective methods for knowing what people do and do not know.
     topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
     problem_description_summary: Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
@@ -271,14 +271,14 @@
     - name: Enhancing How Governments Assess Awareness of Zika
       url: https://medium.com/smarter-crowdsourcing/enhancing-how-governments-assess-awareness-of-zika-15622564c00b#.ajkml2pfm
 
-- title: COMUNICACIÓN Y CAMBIO DE CONDUCTAS
+- title: DENUNCIAS ASOCIADAS A CORRUPCIÓN E IRREGULARIDADES
   slug: comunicacion-y-cambio-de-conductas
   conference_slug: comunicacion-y-cambio-de-conductas-conference
   id: 01
   is_active: true
   image: communication-and-behavior-change.jpg
   short_description: >
-    ¿Cuáles son las maneras más efectivas de hacer que el público cambie de conductas para prevenir la reproducción del mosquito y sus picaduras y lograr un acceso adecuado a la atención de salud?
+    ¿Cómo puede el gobierno desarrollar sistemas de protección a denunciantes que resguarden su anonimato y, en caso de quererlo, les conecten de forma efectiva con quienes le darán seguimiento a su denuncia? ¿Cómo procesar y organizar las denuncias para que se maximice la eficiencia de la investigación?
   focus: Hay nuevas oportunidades, incluidos enfoques innovadores y nuevos medios de comunicación, para mejorar el modo en que los gobiernos se comunican con el público a fin de crear mayores incentivos orientados a ese cambio de conductas necesario para mitigar el riesgo del zika y las enfermedades transmitidas por mosquitos. El objetivo de esta sesión es identificar enfoques innovadores de comunicación que superen la inercia intrínseca, las creencias preconcebidas y la desinformación e induzcan un cambio de conductas sostenido.
   topic_description_summary: Los problemas fueron expuestos en un informe resumido con el objetivo de describir la causa del problema, los enfoques actuales en los diferentes países y las lecciones aprendidas de otros campos.
   problem_description_summary: >
@@ -519,14 +519,14 @@
       # - name: Example Post Conference Resource
       #   url: www.example.com
 
-- title: APRENDIZAJE PERTINENTE
+- title: CORRUPCIÓN JUDICIAL EN GENERAL
   slug: aprendizaje-pertinente
   conference_slug: aprendizaje-pertinente-conference
   id: 02
   is_active: false
   image:
   short_description: >
-    ¿Qué se puede hacer para acelerar el aprendizaje pertinente entre los funcionarios públicos afectados, especialmente de quienes están fuera de un ministerio de salud (p. ej., medio ambiente, saneamiento, planificación urbana, etc.), y en varios niveles de gobierno, con vistas a que puedan desarrollar una comprensión geográficamente específica y culturalmente contextualizada de un problema de salud pública lo bastante rápido como para determinar qué políticas y servicios relacionados deben crear?
+    ¿Cómo incrementar la transparencia y la supervisión en el sistema judicial sin socavar la independencia y la autonomía del poder judicial?
   focus:
   problem_description_summary:
   problem_description_link:
@@ -535,9 +535,9 @@
   en:
     title: Relevant Learning
     short_description: What can be done to accelerate relevant learning among affected public policymakers, especially those outside of a ministry of health (e.g. environment, sanitation, urban planning, etc), and at various levels of government so they can develop a geographically specific and culturally contextualized understanding of a public health issue quickly enough to determine what related policies and services they must create?
-    focus: 
-    topic_description_summary: 
-    problem_description_summary: 
+    focus:
+    topic_description_summary:
+    problem_description_summary:
   conference:
     is_active: false
     date:
@@ -555,14 +555,14 @@
     action_items:
     resources:
 
-- title: GOBERNANZA Y COORDINACIÓN
+- title: JUICIOS EFECTIVOS EN MATERIA DE CORRUPCIÓN
   slug: gobernanza-y-coordinacion
   conference_slug: gobernanza-y-coordinacion-conference
   id: 03
   is_active: false
   image:
   short_description: >
-    ¿Cuáles son las mejores estrategias para asegurar la colaboración y evitar la duplicación de esfuerzos entre las agencias involucradas en responder a una crisis de salud pública compleja? ¿Quién debería estar a cargo?
+    ¿Cómo pueden los gobiernos y la sociedad civil asegurar que las y los investigadores cuenten con las herramientas necesarias para que se castigue a las personas que hayan cometido un acto de corrupción y al mismo tiempo asegurar un un adecuado monitoreo y control del proceso?
   focus:
   problem_description_summary:
   problem_description_link:
@@ -571,9 +571,9 @@
   en:
     title: Governance and Coordination
     short_description: What are the best strategies for ensuring collaboration and avoiding duplication of effort between the many agencies involved in responding to a complex public health crisis? Who should be in charge?
-    focus: 
-    topic_description_summary: 
-    problem_description_summary: 
+    focus:
+    topic_description_summary:
+    problem_description_summary:
   conference:
     is_active: false
     date:
@@ -590,14 +590,14 @@
     action_items:
     resources:
 
-- title: ANÁLISIS PREDICTIVO
+- title: MEDICIÓN EFECTIVA DE LA CORRUPCIÓN Y SUS COSTOS
   slug: analisis-predictivo
   conference_slug: analisis-predictivo-conference
   id: 04
   is_active: true
   image: predictive-analytics.jpg
   short_description: >
-    ¿Cuáles son las opciones innovadoras para usar datos de nuevas tecnologías para predecir y por lo tanto, prevenir brotes?
+    ¿Cómo podemos desarrollar medidas rigurosas y consensuadas contra la corrupción y sus daños asociados?
   focus: Los brotes son generalmente impredecibles y por lo tanto difíciles de prevenir.
   topic_description_summary: Los problemas fueron expuestos en un informe resumido con el objetivo de describir la causa del problema, los enfoques actuales en los diferentes países y las lecciones aprendidas de otros campos.
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
@@ -792,14 +792,14 @@
     action_items:
     resources:
 
-- title: LA BASURA Y EL AGUA ESTANCADA
+- title: PARTICIPACIÓN COMUNITARIA EN LA CREACIÓN DE POLÍTICAS PÚBLICAS DE COMBATE A LA CORRUPCIÓN
   slug: la-basura-y-el-agua-estancada
   conference_slug: la-basura-y-el-agua-estancada-conference
   id: 05
   is_active: true
   image: trash-bw.jpg
   short_description: >
-    ¿Qué se puede hacer para eliminar los desechos sin recoger y el agua estancada donde se reproducen los mosquitos Aedes Aegypti?
+    ¿Cómo se puede aumentar, de forma significativa, inclusiva y visible, el acceso de las y los ciudadanos al proceso de formulación de políticas públicas?
   focus: La basura y los envases se llenan de agua estancada donde se reproducen los mosquitos.  El objetivo de la sesión es identificar métodos innovadores y efectivos para evitar que la acumulación de desechos y los depósitos de agua se conviertan en más fuentes de reproducción de mosquitos.
   topic_description_summary: Los problemas fueron expuestos en un informe resumido con el objetivo de describir la causa del problema, los enfoques actuales en los diferentes países y las lecciones aprendidas de otros campos.
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
@@ -1017,46 +1017,14 @@
     action_items:
     resources:
 
-- title: ASPECTOS ECONÓMICOS DEL DIAGNÓSTICO Y LA VACUNACIÓN
-  en:
-    title: Economics of Testing and Vaccination
-    short_description: How do we identify and develop efficient and effective policies to avoid under- and over-inclusive testing and vaccination? 
-  slug: aspectos-economicos-del-diagnostico-y-la-vacunacion
-  conference_slug: aspectos-economicos-del-diagnostico-y-la-vacunacion-conference
-  id: 06
-  is_active: false
-  image:
-  short_description: >
-    ¿Cómo identificamos y desarrollamos políticas eficientes y eficaces para evitar errores por exceso o falta de diagnóstico y vacunación?
-  focus:
-  problem_description_summary:
-  problem_description_link:
-  problem_description_link_spanish:
-  english_document_link:
-  conference:
-    is_active: false
-    date:
-    time:
-    english_document_link:
-    participants:
-      - name:
-        title:
-        twitter_url:
-    resources:
-  post_conference:
-    is_active: false
-    takeaways:
-    action_items:
-    resources:
-
-- title: RECOLECCIÓN DE INFORMACIÓN / GOBERNANZA DE DATOS
+- title: REFORMA DEL SECTOR PÚBLICO
   slug: recoleccion-de-informacion--gobernanza-de-datos
   conference_slug: recoleccion-de-informacion--gobernanza-de-datos-conference
   id: 07
   is_active: true
   image: infocollection-bw.jpg
   short_description: >
-    ¿Cómo desarrollar políticas y prácticas para una mejor recolección de datos epidemiológicos y para compartir datos con las autoridades apropiadas?
+    ¿Cuáles son los servicios públicos donde hay mayor riesgo de corrupción? ¿Cómo se pueden rediseñar esos servicios de manera que reduzcan o eliminen el potencial de corrupción y fomenten una cultura de rendición de cuentas?
   focus: Una recolección y diseminación de datos epidemiológicos lenta e inexacta reduce la eficiencia en la prevención y control de los brotes. El objetivo de esta sesión es identificar métodos innovadores y efectivos para recolectar datos epidemiológicos confiables de las instituciones e individuos que los ponen a disposición. Estamos buscando ejemplos concretos y específicos de prácticas responsables y efectivas de intercambio de datos sobre salud pública.
   topic_description_summary: Los problemas fueron expuestos en un informe resumido con el objetivo de describir la causa del problema, los enfoques actuales en los diferentes países y las lecciones aprendidas de otros campos.
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
@@ -1277,325 +1245,5 @@
     is_active: false
     takeaways:
     takeaways_link: https://drive.google.com/open?id=1sJA3qXI_ihjetM7oHiZvYzil4r_jKe0BiAq43BP_JaI
-    action_items:
-    resources:
-
-- title: COLABORACIONES CON DATOS
-  en:
-    title: Data Collaboratives
-    short_description: Where there is an absence of government data or the capacity to gather data, what alternatives exist from private and other sources for filling that gap?
-  slug: colaboraciones-con-datos
-  conference_slug: colaboraciones-con-datos-conference
-  id: 08
-  is_active: false
-  image:
-  short_description: >
-    Donde no hay datos gubernamentales ni la capacidad de recopilar información, ¿qué alternativas existen a partir de fuentes privadas, u otras, para llenar ese vacío?
-  focus:
-  problem_description_summary:
-  problem_description_link:
-  problem_description_link_spanish:
-  english_document_link:
-  conference:
-    is_active: false
-    date:
-    time:
-    english_document_link:
-    participants:
-      - name:
-        title:
-        twitter_url:
-    resources:
-  post_conference:
-    is_active: false
-    takeaways:
-    action_items:
-    resources:
-
-- title: VIGILANCIA
-  en:
-    title: Surveillance
-    short_description: What are the best ways to identify mosquito breeding locations?
-  slug: vigilancia
-  conference_slug: vigilancia-conference
-  id: 09
-  is_active: false
-  image:
-  short_description: ¿Cuáles son las mejores maneras de identificar los lugares de reproducción de los mosquitos?
-  focus:
-  problem_description_summary:
-  problem_description_link:
-  problem_description_link_spanish:
-  english_document_link:
-  conference:
-    is_active: false
-    date:
-    time:
-    english_document_link:
-    participants:
-      - name:
-        title:
-        twitter_url:
-    resources:
-  post_conference:
-    is_active: false
-    takeaways:
-    action_items:
-    resources:
-
-- title: PREVENCIÓN DE PICADURAS
-  slug: prevencion-de-picaduras
-  conference_slug: prevencion-de-picaduras-conference
-  id: 10
-  is_active: false
-  image:
-  short_description: >
-    ¿Cuáles son los enfoques creativos, ecológicos y eficaces para prevenir las picaduras de mosquito en horas concretas (p. ej., al anochecer) y en lugares específicos del cuerpo (p. ej., los tobillos)?
-  focus:
-  topic_description_summary:
-  problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
-  problem_description_link:
-  problem_description_link_spanish:
-  english_document_link:
-  en:
-    title: Bite Prevention
-    short_description: What are the creative, environmentally-friendly yet effective approaches to prevent mosquito bites at particular times (e.g. dusk) and on particular areas of the body (e.g. ankles)?
-    focus: 
-    topic_description_summary: 
-    problem_description_summary: 
-  conference:
-    is_active: false
-    date:
-    time:
-    english_document_link:
-    participants:
-      - name:
-        title:
-        twitter_url:
-    resources:
-  post_conference:
-    is_active: false
-    takeaways:
-    action_items:
-    resources:
-
-- title: AMPLIAR EL ACCESO A LA ATENCIÓN DE SALUD
-  slug: ampliar-el-acceso-a-la-atencion-de-salud
-  conference_slug: ampliar-el-acceso-a-la-atencion-de-salud-conference
-  id: 11
-  is_active: false
-  image:
-  short_description: >
-    ¿Cómo podemos ampliar rápidamente las infraestructuras para administrar cuidados agudos y crónicos para el Zika y las ETM y superar aspectos ineficaces de los sistemas de salud?
-  focus:
-  problem_description_summary:
-  problem_description_link:
-  problem_description_link_spanish:
-  english_document_link:
-  en:
-    title: Scale Up of Access to Comprehensive Healthcare
-    short_description: How do we quickly scale up the infrastructure to manage acute and chronic care for Zika and other MBDs for patients and families and overcome current inefficiencies of health systems ?
-    focus: 
-    topic_description_summary: 
-    problem_description_summary: 
-  conference:
-    is_active: false
-    date:
-    time:
-    english_document_link:
-    participants:
-      - name:
-        title:
-        twitter_url:
-    resources:
-  post_conference:
-    is_active: false
-    takeaways:
-    action_items:
-    resources:
-
-- title: CUIDADOS DE LARGO PLAZO
-  slug: cuidados-de-largo-plazo
-  conference_slug: cuidados-de-largo-plazo-conference
-  id: 12
-  is_active: true
-  image: long-term-care.jpg
-  short_description: >
-    ¿Cómo proporcionan los formuladores de política un apoyo accesible y continuado a las familias cuyos miembros están en riesgo de sufrir, o ya sufren, los efectos crónicos del zika tales como la microcefalia?
-  focus: El brote de zika ha generado una explosión de condiciones crónicas que demandan nuevas inversiones en monitoreo, diagnóstico y tratamiento.
-  topic_description_summary: Los problemas fueron expuestos en un informe resumido con el objetivo de describir la causa del problema, los enfoques actuales en los diferentes países y las lecciones aprendidas de otros campos.
-  problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
-  problem_description_link: https://docs.google.com/document/d/1L-COQDnskgiT0EMx_BIWGOlpbvAUU0rJ1WIcMaMo1Mk
-  problem_description_link_spanish: https://docs.google.com/document/d/1ineGTTXL1LdvFkTENCVFvMMRg0GF6quLA-IlG4LH2yo/edit
-  english_document_link: https://docs.google.com/document/d/1-FOzl1PIpL4aeAvknr3zTVyqwRtX2AjlZjCIhiSDTZw/edit
-  en:
-    title: Long Term Care
-    rec_name: LONG-TERM CARE
-    rec_slug: long-term-care
-    short_description: How do we provide support for families with members at risk or already suffering with chronic effects of Zika, like Microcephaly?
-    focus: The Zika outbreak has created a surge of chronic conditions that calls for new investments in monitoring, diagnosis, and treatment.
-    topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
-    problem_description_summary: Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
-  conference:
-    is_active: false
-    is_active_info: true
-    date: October 19, 2016 #19 DE OCTUBRE DE 2016
-    time: 10 - 12 HRS EST
-    english_document_link: https://docs.google.com/document/d/1qzEkNmYLQJtsNQULB3VXnCMd0jFJ4DbfrHoLOv2czd0/edit
-    supporting_participants:
-      - name: Bergen Cooper
-        title: Senior Policy Research Associate
-        affiliation: The Center for Health and Gender Equity, USA
-        twitter_url:
-      - name: Dirceu B. Greco, MD, PhD
-        title: Professor
-        affiliation: Infectious Diseases and Bioethics School of Medicine Federal University of Minas Gerais - Belo Horizonte, Brazil
-        twitter_url:
-      - name: Emma Iriarte
-        title: Executive Secretary, Salud Mesoamérica 2015 Initiative
-        affiliation: Health Lead Specialist, Inter-American Development Bank, Panama
-        twitter_url:
-      - name: Karin Nielsen, MD, MPH
-        title: Professor of Clinical Pediatrics, Division of Infectious Diseases, David Geffen UCLA School of Medicine
-        affiliation: Director Center for Brazilian Studies UCLA
-        twitter_url:
-      - name: Anita M. McGahan
-        title: Rotman Chair in Management, Professor of Strategic Management
-        affiliation: University of Toronto
-        twitter_url:
-      - name: George Saade MD
-        title: Professor, Obstetrics & Gynecology, and Cell Biology, Chief of Obstetrics and Maternal Fetal Medicine, Director, Perinatal Research Division, Department of Obstetrics and Gynecology
-        affiliation: University of Texas - Galveston, USA
-        twitter_url:
-      - name: Chiara Servili, MD, MPH, PhD
-        title: Focal Point – Child and Adolescent Mental Health Evidence, Research and Action on Mental and Brain Disorders, Department of Mental Health and Substance Abuse
-        affiliation: World Health Organization
-        twitter_url:
-      - name: Dr. Anne Wheeler
-        title: Public Health Analyst, RTI International; licensed psychologist in practice, Carolina Institute for Developmental Disabilities
-        affiliation: University of North Carolina - Chapel Hill; USA
-        twitter_url:
-    partner_participants:
-      - name: Panamá
-        people:
-          - name: Dr. Lizbeth Cerezo
-            title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
-            affiliation: Ministry of Health
-            twitter_url:
-          # - name: Dr. Juan Miguel Pascale
-          #   title: Deputy Director
-          #   affiliation: The Gorgas Memorial Institute for Health Studies
-          #   twitter_url:
-          # - name: Edgardo Villalobos
-          #   title: Deputy Director of Environmental Health
-          #   affiliation: Ministry of Health
-          #   twitter_url:
-          # - name: Cecilio Tejeira
-          #   title: Deputy Director of International Affairs
-          #   affiliation: Ministry of Health
-          #   twitter_url:
-      - name: Argentina
-        people:
-          - name: Tomas Dominguez Vidal
-            title: Public Innovation Department
-            affiliation: Ministry of Modernization
-            twitter_url:
-          - name: Dra Alicia Mañana
-            title: Ministry of Health
-            affiliation:
-            twitter_url:
-          - name: Dra Mariel Caparaelli
-            title: Ministry of Health
-            affiliation:
-            twitter_url:
-      - name: Colombia
-        people:
-          - name: Ana María Lara Salinas
-            title: Advisor, Cooperation and International Relations
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Liliana Cuevas
-            title: Specialist, Congenital Defects Surveillance
-            affiliation: National Institute of Health
-            twitter_url:
-          - name: Marcela Mercado
-            title: Department of Research in Public Health
-            affiliation: National Institute of Health
-            twitter_url:
-      - name: Ciudad de Río Janeiro
-        people:
-          - name: Dr. Betina Durovni
-            title: Primary Care and Health Surveillance Undersecretary
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Valeria Saraceni
-            title: Health Situation Analysis Coordination
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Cristina Lemos
-            title: Health Surveillance Superintendent
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Cristina Boaretto
-            title: Health Promotion Superintendent
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Elenice Almeida
-            title: Women's Health Program
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Jamile Costa
-            title: Child and Adolescent's Health Program
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Maria Aparecida Duarte Vidon Blanc
-            title: Rehabilitation Coordination
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Beatriz Loureiro Werneck
-            title: Rehabilitation Coordination
-            affiliation: Secretary of Health
-            twitter_url:
-      - name: Banco Interamericano de Desarrollo
-        people:
-          - name: Rafael Anta
-            title: Lead Specialist
-            affiliation: Competitiveness and Innovation Division
-            twitter_url:
-          - name: Ralf Moreno
-            title: Project Manager
-            affiliation: Social Protection and Health Division
-            twitter_url:
-          - name: Diana Pinto
-            title: Health Lead Specialist, USA
-            affiliation: Social Protection and Health Division
-            twitter_url:
-      - name: The Governance Lab, NYU
-        people:
-          - name: Dr. Rafael Ayoub
-            title: Health Research Advisor
-            affiliation:
-            twitter_url:
-          - name: Professor Beth Simone Noveck
-            title: Director
-            affiliation:
-            twitter_url:
-          - name: María Hermosilla
-            title: Project Manager and Research Fellow
-            affiliation:
-            twitter_url:
-          - name: Dinora Cantu
-            title: Academy Coordinator
-            affiliation:
-            twitter_url:
-          - name: Anirudh Dinesh
-            title: Research Assistant
-            affiliation:
-            twitter_url:
-    resources:
-  post_conference:
-    is_active: true
-    takeaways:
-    takeaways_link: https://drive.google.com/open?id=1HCprEFcys0sIpJOI89GL4i8HjAN_tvJPilc6fDM3sZY
     action_items:
     resources:

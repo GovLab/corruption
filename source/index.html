@@ -4,35 +4,35 @@ custom_body: homepage
 ---
 
 <main role="main">
-    <!-- main content starts here -->
-    <!-- <a href="/map.html" class="divider explore-map"><h5>Explora el mapa de expertos y expertas</h5></a> -->
-    <section class="top-section top-section--white">
-      <div class="row expanded">
-        <div class="column large-12 site-logo__wrapper">
-          <a href="{{'/index.html' | relative_url}}"><img class="site-logo" src="{{'/images/zika-logo-pos.png' | relative_url}}" alt="Smarter Crowdsourcing | Zika Logo"></a>
-        </div>
+  <!-- main content starts here -->
+  <!-- <a href="/map.html" class="divider explore-map"><h5>Explora el mapa de expertos y expertas</h5></a> -->
+  <section class="top-section top-section--white">
+    <div class="row expanded">
+      <div class="column large-12 site-logo__wrapper">
+        <a href="{{'/index.html' | relative_url}}"><img class="site-logo" src="{{'/images/anti-corruption-logo.png' | relative_url}}" alt="Smarter Crowdsourcing | Anti-Corruption Logo"></a>
       </div>
-      <div class="row expanded align-center">
-        <div class="column large-10 small-12">
-          <section class="imagine-banner">
-            <h2>{% t index.imagine.imagine1 %}</h2>
-            <h2>{% t index.imagine.imagine2 %}</h2>
-            <h2>{% t index.imagine.imagine3 %}</h2>
-          </section>
-            }
-        </div>
-      </div>
-     <!--  <div class="main-buttons main-buttons__index"> -->
-        <!-- <a href="./call-for-participants.html" class="button button--accent-color">Participate</a> -->
-        <!-- <a href="./call-for-participants.html" class="button nodisplay button--accent-color">Participa</a> -->
+    </div>
+    <div class="row expanded align-center">
+      <div class="column large-10 small-12">
+        <section class="imagine-banner">
+          <h2>{% t index.imagine.imagine1 %}</h2>
+          <h2>{% t index.imagine.imagine2 %}</h2>
+          <h2>{% t index.imagine.imagine3 %}</h2>
+        </section>
+      }
+    </div>
+  </div>
+  <!--  <div class="main-buttons main-buttons__index"> -->
+  <!-- <a href="./call-for-participants.html" class="button button--accent-color">Participate</a> -->
+  <!-- <a href="./call-for-participants.html" class="button nodisplay button--accent-color">Participa</a> -->
 <!--             <a href="./topics.html" class="button button--accent-color">Topics</a>
 -->
-        <!-- <a href="./topics.html" class="button nodisplay button--accent-color">Temas</a> -->
-     <!--    <a href="https://drive.google.com/open?id=1X62chK6dRH_je5X-UjpEu8wlS2b76ghbMOvQbFzeWKY" class="button yesdisplay button--accent-color">READ THIS PAGE IN ENGLISH</a> -->
+<!-- <a href="./topics.html" class="button nodisplay button--accent-color">Temas</a> -->
+<!--    <a href="https://drive.google.com/open?id=1X62chK6dRH_je5X-UjpEu8wlS2b76ghbMOvQbFzeWKY" class="button yesdisplay button--accent-color">READ THIS PAGE IN ENGLISH</a> -->
 <!--       </div> -->
-    </section>
+</section>
 
-    <section class="page-section page-section--zebra-dark">
+   <!--  <section class="page-section page-section--zebra-dark">
     <br>
       <div class="row align-center collapse">
         <div class="small-12 medium-6 large-5 column">
@@ -51,98 +51,106 @@ custom_body: homepage
         </div>
       </div>
       <br>
+    </section> -->
+
+    <section class="page-section page-section--zebra-dark">
+      <div class="row align-center">
+        <div class="medium-10 large-9 column more-info">
+          <p>{% t index.intro.p1 %}</p>
+        </div>
+      </div>
     </section>
 
     <section>
-    <a href="{{'/map.html' | relative_url}}" class="divider explore-map"><h5>{% t index.explore_the_expert_map %}</h5></a>
-    <div class="main-buttons main-buttons__map">
+      <a href="{{'/map.html' | relative_url}}" class="divider explore-map"><h5>{% t index.explore_the_expert_map %}</h5></a>
+      <div class="main-buttons main-buttons__map">
         <!-- <a href="./call-for-participants.html" class="button button--accent-color">Participate</a> -->
         <a href="{{'/call-for-participants.html' | relative_url}}" class="button button--map button--accent-color">{% t index.participate %}</a>
         <!-- <a href="./topics.html" class="button button--accent-color">Topics</a> -->
         <a href="{{'/topics.html' | relative_url}}" class="button button--map button--accent-color">{% t global.topics %}</a>
-    </div>
+      </div>
     </section>
 
     <section style="margin-top: -25px; ">
       <div class="row expanded">
 
         {% for topic in site.data.topics %}
-          {% if topic.is_active and topic.conference.is_active %}
-            <div class="large-6 small-12 column topic" style="background-image: url({{'/images/topics/resized/' | append: topic.image}})">
+        {% if topic.is_active and topic.conference.is_active %}
+        <div class="large-6 small-12 column topic" style="background-image: url({{'/images/topics/resized/' | append: topic.image}})">
 
-              {%case site.lang %}
-                {% when "es" %}
-                  <h1>{{topic.title}}</h1>
-                  <p>{{topic.short_description}}</p>
-                {% when "pt" %}
-                  <h1>{{topic.pt.title}}</h1>
-                  <p>{{topic.pt.short_description}}</p>
-                {% when "en" %}
-                  <h1>{{topic.en.title}}</h1>
-                  <p>{{topic.en.short_description}}</p>
-              {% endcase %}
+          {%case site.lang %}
+          {% when "es" %}
+          <h1>{{topic.title}}</h1>
+          <p>{{topic.short_description}}</p>
+          {% when "pt" %}
+          <h1>{{topic.pt.title}}</h1>
+          <p>{{topic.pt.short_description}}</p>
+          {% when "en" %}
+          <h1>{{topic.en.title}}</h1>
+          <p>{{topic.en.short_description}}</p>
+          {% endcase %}
 
-              {% if topic.conference.is_active and topic.conference.is_active_info %}
-                <p><a href="{{ topic.slug }}.html" class="button button--theme-color">
-                {% t global.more_information %}</a></p> <!-- More Information -->
+          {% if topic.conference.is_active and topic.conference.is_active_info %}
+          <p><a href="{{ topic.slug }}.html" class="button button--theme-color">
+            {% t global.more_information %}</a></p> <!-- More Information -->
 
-              {% elsif topic.conference.is_active and topic.conference.is_active_info == false %}
+            {% elsif topic.conference.is_active and topic.conference.is_active_info == false %}
 
-                <p><a href="javascript: void(0)" class="button button--disabled">{% t global.more_information_soon %}</a></p> <!-- More Information Coming Soon -->
-              {% endif %}
+            <p><a href="javascript: void(0)" class="button button--disabled">{% t global.more_information_soon %}</a></p> <!-- More Information Coming Soon -->
+            {% endif %}
 
-              <div class="topic__date">
-                <!-- <h6>Conference on</h6> -->
-                <h6>{% t global.conference_on %}</h6>
-                <span class="topic__month">{{ topic.conference.date | date: "%b"}}</span>
-                <em class="topic__day">{{ topic.conference.date | date: "%d" }}</em>
-              </div>
+            <div class="topic__date">
+              <!-- <h6>Conference on</h6> -->
+              <h6>{% t global.conference_on %}</h6>
+              <span class="topic__month">{{ topic.conference.date | date: "%b"}}</span>
+              <em class="topic__day">{{ topic.conference.date | date: "%d" }}</em>
             </div>
+          </div>
           {% endif %}
-        {% endfor %}
+          {% endfor %}
 
-        {% for topic in site.data.topics %}
+          {% for topic in site.data.topics %}
           {% if topic.is_active and topic.conference.is_active == false %} <!-- NEED TO ADD A "NOT" -->
-            <div class="large-6 small-12 column topic" style="background-image: url({{'/images/topics/resized/' | append: topic.image}})">
+          <div class="large-6 small-12 column topic" style="background-image: url({{'/images/topics/resized/' | append: topic.image}})">
 
-              {%case site.lang %}
-                {% when "es" %}
-                  <h1>{{topic.title}}</h1>
-                  <p>{{topic.short_description}}</p>
-                {% when "pt" %}
-                  <h1>{{topic.pt.title}}</h1>
-                  <p>{{topic.pt.short_description}}</p>
-                {% when "en" %}
-                  <h1>{{topic.en.title}}</h1>
-                  <p>{{topic.en.short_description}}</p>
-              {% endcase %}
+            {%case site.lang %}
+            {% when "es" %}
+            <h1>{{topic.title}}</h1>
+            <p>{{topic.short_description}}</p>
+            {% when "pt" %}
+            <h1>{{topic.pt.title}}</h1>
+            <p>{{topic.pt.short_description}}</p>
+            {% when "en" %}
+            <h1>{{topic.en.title}}</h1>
+            <p>{{topic.en.short_description}}</p>
+            {% endcase %}
 
-              <p><a href="{{topic.slug }}.html" class="button button--theme-color">{% t global.more_information %}</a></p>
-              <div class="topic__date topic__date-past">
-                <!-- <h6>Conference took place on</h6> -->
-                <h6>{% t global.conference_took_place_on %}</h6>
-                <span class="topic__month">{{ topic.conference.date | date: "%b" }}</span> <!-- topic.conference.date | dateFilter("month") | truncate(3, true, "")}} -->
-                <em class="topic__day">{{ topic.conference.date | date: "%d" }}</em> <!-- topic.conference.date | dateFilter("day")}} -->
-              </div>
+            <p><a href="{{topic.slug }}.html" class="button button--theme-color">{% t global.more_information %}</a></p>
+            <div class="topic__date topic__date-past">
+              <!-- <h6>Conference took place on</h6> -->
+              <h6>{% t global.conference_took_place_on %}</h6>
+              <span class="topic__month">{{ topic.conference.date | date: "%b" }}</span> <!-- topic.conference.date | dateFilter("month") | truncate(3, true, "")}} -->
+              <em class="topic__day">{{ topic.conference.date | date: "%d" }}</em> <!-- topic.conference.date | dateFilter("day")}} -->
             </div>
+          </div>
           {% endif %}
-        {% endfor %}
+          {% endfor %}
 
-    </div>
-    </section>
+        </div>
+      </section>
 
-    <section class="divider divider--theme-color">
-      <!-- <h1>More Information</h1> -->
-      <h1>{% t global.more_information %}</h1>
-    </section>
-    <section class="page-section">
-      <div class="row align-center">
-        <div class="medium-10 large-9 column more-info">
-          <p>{% t index.view_the_schedule_text %}</p>
-          <div class="text-centered"><a href="{{'/topics.html' | relative_url}}" class='button button--accent-color'>{% t index.view_the_schedule %}</a></div>
+      <section class="divider divider--theme-color">
+        <!-- <h1>More Information</h1> -->
+        <h1>{% t global.more_information %}</h1>
+      </section>
+      <section class="page-section">
+        <div class="row align-center">
+          <div class="medium-10 large-9 column more-info">
+            <p>{% t index.view_the_schedule_text %}</p>
+            <div class="text-centered"><a href="{{'/topics.html' | relative_url}}" class='button button--accent-color'>{% t index.view_the_schedule %}</a></div>
+          </div>
         </div>
       </div>
-    </div>
     </section>
     <section class="page-section page-section--zebra-dark">
       <div class="row align-center">
@@ -155,7 +163,7 @@ custom_body: homepage
     <section class="page-section">
       <div class="row align-center">
         <div class="medium-10 large-9 column more-info">
-        <p>{% t index.view_the_playbook_text %}</p>
+          <p>{% t index.view_the_playbook_text %}</p>
           <div class="text-centered"><a href='https://docs.google.com/document/d/1AZNHKnjVlXpqRU5vkvz3PTKz0bS5oII8i_hu04QmoEw/edit#heading=h.qgmunizwlw4' target="_blank" class='button button--accent-color'>{% t index.view_the_playbook %}</a></div>
         </div>
       </div>
@@ -166,14 +174,14 @@ custom_body: homepage
     <section class="page-section page-section--zebra-dark">
       <div class="row align-center">
         <div class="medium-10 large-9 column more-info">
-        <br>
-        <br>
-        <iframe class="btm-vid" width="100%" height="340px;" src="https://www.youtube.com/embed/YV0TBNl68P4" frameborder="0" allowfullscreen></iframe>
-        <div class="text-centered"><p class="video-caption">{% t index.video_caption %}</p><br></div>
-        <h5>{% t index.in_press %}:</h5>
-        <a class="resource-link" href="http://elpais.com/elpais/2017/03/30/mamas_papas/1490859066_276188.html" target="_blank">El primer cumpleaños de los niños afectados por el virus del zika {% t index.article_in_spanish %}</a>
+          <br>
+          <br>
+          <iframe class="btm-vid" width="100%" height="340px;" src="https://www.youtube.com/embed/YV0TBNl68P4" frameborder="0" allowfullscreen></iframe>
+          <div class="text-centered"><p class="video-caption">{% t index.video_caption %}</p><br></div>
+          <h5>{% t index.in_press %}:</h5>
+          <a class="resource-link" href="http://elpais.com/elpais/2017/03/30/mamas_papas/1490859066_276188.html" target="_blank">El primer cumpleaños de los niños afectados por el virus del zika {% t index.article_in_spanish %}</a>
         </div>
       </div>
     </section>
 
-</main>
+  </main>

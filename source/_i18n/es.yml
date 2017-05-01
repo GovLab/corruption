@@ -2,18 +2,20 @@ global:
   title: "Crowdsourcing Inteligente: zika"
   home: Inicio
   about: Acerca de
-  team: Equipo 
+  team: Equipo
   topics: Temas
-  recommendations: Recomendaciones 
+  recommendations: Recomendaciones
   map: Explora el Mapa
   blog: Blog
   more_information: Mas Información
   more_information_soon: Pronto Mas Información
-  conference_took_place_on: Esta Conferencia se Realizó el 
+  conference_took_place_on: Esta Conferencia se Realizó el
   conference: Conferencia
   participate: Participa
   conference_on: Conferencia el
 index:
+  intro:
+    p1: The Governance Lab de la Universidad de Nueva York (GovLab) y The Governance Inno- vation Clinic de la Universidad de Yale, en coordinación con el Banco Interamericano de Desarrollo (BID) y la Secretaría de la Función Pública, están desarrollando un proyecto en México que tiene como objetivo convocar a expertos globales para identi car e im- plementar enfoques innovadores para combatir la corrupción.
   imagine:
     imagine1: Imagina si esos individuos creativos pudieran hablar directamente con las instituciones que tienen el poder y la responsabilidad de implementar nuevas políticas y servicios.
     imagine2: Imagina si las personas más inteligentes e innovadoras pudieran reunirse para combatir el zika de manera rápida y fácil.
@@ -59,6 +61,6 @@ map:
     organization: ORGANIZACIÓN
 footer:
   text: EN COLABORACIÓN CON
-  copyright: 
+  copyright:
     pre-link: Este trabajo está autorizado por la
     post-link: Licencia Internacional Creative Commons Attribution-ShareAlike 4.0
