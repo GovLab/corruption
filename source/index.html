@@ -83,7 +83,7 @@ custom_body: homepage
 
           {% for topic in site.data.topics %}
           {% if topic.is_active and topic.conference.is_active == false %} <!-- NEED TO ADD A "NOT" -->
-          <div class="large-6 small-12 column topic" style="background-image: url({{'/images/topics/resized/' | append: topic.image}})">
+          <div class="large-6 small-12 column topic" style="background-image: url({{'/images/topics/resized/' | append: topic.image | relative_url}})">
 
             {%case site.lang %}
             {% when "es" %}
