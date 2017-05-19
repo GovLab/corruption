@@ -25,13 +25,13 @@ custom_body: homepage
 
 </section>
 
-    <section class="page-section page-section--zebra-dark">
-      <div class="row align-center">
-        <div class="medium-10 large-9 column more-info">
-          <p>{% t index.intro.p1 %}</p>
-        </div>
-      </div>
-    </section>
+<section class="page-section page-section--zebra-dark">
+  <div class="row align-center">
+    <div class="medium-10 large-9 column more-info">
+      <p>{% t index.intro.p1 %}</p>
+    </div>
+  </div>
+</section>
 
 <!--     <section>
       <a href="{{'/map.html' | relative_url}}" class="divider explore-map"><h5>{% t index.explore_the_expert_map %}</h5></a>
@@ -45,7 +45,6 @@ custom_body: homepage
       <div class="row expanded">
 
         {% for topic in site.data.topics %}
-        {% if topic.is_active and topic.conference.is_active %}
         <div class="large-6 small-12 column topic" style="background-image: url({{'/images/topics/resized/' | append: topic.image | relative_url}})">
 
           {%case site.lang %}
@@ -62,28 +61,27 @@ custom_body: homepage
 
           {% if topic.conference.is_active and topic.conference.is_active_info %}
           <p><a href="{{ topic.slug }}.html" class="button button--theme-color">
-            {% t global.more_information %}</a></p> <!-- More Information -->
+            {% t global.more_information %}ppp</a></p>
 
-            {% elsif topic.conference.is_active and topic.conference.is_active_info == false %}
+            {% else %}
 
-            <p><a href="javascript: void(0)" class="button button--disabled">{% t global.more_information_soon %}</a></p> <!-- More Information Coming Soon -->
+            <p><a href="javascript: void(0)" class="button button--disabled">{% t global.more_information_soon %}</a></p>
+
             {% endif %}
 
             <div class="topic__date">
-              <!-- <h6>Conference on</h6> -->
               <h6>{% t global.conference_on %}</h6>
               <span class="topic__month">{{ topic.conference.date | date: "%b"}}</span>
               <em class="topic__day">{{ topic.conference.date | date: "%d" }}</em>
             </div>
           </div>
-          {% endif %}
           {% endfor %}
 
-          {% for topic in site.data.topics %}
-          {% if topic.is_active and topic.conference.is_active == false %} <!-- NEED TO ADD A "NOT" -->
+<!--           {% for topic in site.data.topics %}
+          {% if topic.is_active and topic.conference.is_active == false %}
           <div class="large-6 small-12 column topic" style="background-image: url({{'/images/topics/resized/' | append: topic.image | relative_url}})">
 
-            {%case site.lang %}
+            {% case site.lang %}
             {% when "es" %}
             <h1>{{topic.title}}</h1>
             <p>{{topic.short_description}}</p>
@@ -97,14 +95,13 @@ custom_body: homepage
 
             <p><a href="{{topic.slug }}.html" class="button button--theme-color">{% t global.more_information %}</a></p>
             <div class="topic__date topic__date-past">
-              <!-- <h6>Conference took place on</h6> -->
               <h6>{% t global.conference_took_place_on %}</h6>
-              <span class="topic__month">{{ topic.conference.date | date: "%b" }}</span> <!-- topic.conference.date | dateFilter("month") | truncate(3, true, "")}} -->
-              <em class="topic__day">{{ topic.conference.date | date: "%d" }}</em> <!-- topic.conference.date | dateFilter("day")}} -->
+              <span class="topic__month">{{ topic.conference.date | date: "%b" }}</span>
+              <em class="topic__day">{{ topic.conference.date | date: "%d" }}</em>
             </div>
           </div>
           {% endif %}
-          {% endfor %}
+          {% endfor %} -->
 
         </div>
       </section>
@@ -137,7 +134,7 @@ custom_body: homepage
         </div>
       </div>
     </section>
-    <section class="divider divider--theme-color">
+   <!--  <section class="divider divider--theme-color">
       <h1>{% t index.resources %}</h1>
     </section>
     <section class="page-section page-section--zebra-dark">
@@ -151,6 +148,6 @@ custom_body: homepage
           <a class="resource-link" href="http://elpais.com/elpais/2017/03/30/mamas_papas/1490859066_276188.html" target="_blank">El primer cumpleaños de los niños afectados por el virus del zika {% t index.article_in_spanish %}</a>
         </div>
       </div>
-    </section>
+    </section> -->
 
   </main>

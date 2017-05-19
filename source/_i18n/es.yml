@@ -8,31 +8,34 @@ global:
   map: Explora el Mapa
   blog: Blog
   more_information: Mas Información
-  more_information_soon: Pronto Mas Información
+  more_information_soon: Próximamente más información
   conference_took_place_on: Esta Conferencia se Realizó el
   conference: Conferencia
   participate: Participa
-  conference_on: Conferencia el
+  conference_on: Fecha de la conferencia
 index:
   intro:
-    p1: The Governance Lab de la Universidad de Nueva York (GovLab) y The Governance Inno- vation Clinic de la Universidad de Yale, en coordinación con el Banco Interamericano de Desarrollo (BID) y la Secretaría de la Función Pública, están desarrollando un proyecto en México que tiene como objetivo convocar a expertos globales para identi car e im- plementar enfoques innovadores para combatir la corrupción.
+    p1: >
+      A través de la iniciativa de Smarter Crowdsourcing | Anticorrupción se llevarán a cabo seis conferencias en línea para identificar enfoques innovadores y prácticos para combatir la corrupción en México. Mediante las conferencias, que se llevarán a cabo, el verano de 2017, se está convocando a expertos y expertas de distintos países en una variedad de campos, como administración pública, análisis y ciencia de datos, tecnología, negocios y aplicación de la ley, entre otros. El proyecto está diseñado para convertir las buenas ideas en soluciones implementables.
   imagine:
-    imagine1: Imagina si esos individuos creativos pudieran hablar directamente con las instituciones que tienen el poder y la responsabilidad de implementar nuevas políticas y servicios.
-    imagine2: Imagina si las personas más inteligentes e innovadoras pudieran reunirse para combatir el zika de manera rápida y fácil.
-    imagine3: Imagina si el epidemiólogo, el especialista en computación, el planificador urbano y aquellas personas con diversidad de conocimientos pudieran hablar entre sí para idear soluciones aplicables a las causas que originan las enfermedades trasmitidas por mosquitos.
+    imagine1: Imagina si las personas más inteligentes e innovadoras del mundo pudieran reunirse en un solo espacio para combatir, de manera ágil y efectiva, el problema de corrupción en México
+    imagine2: Imagina si las y los estadistas, científicos de datos, responsables de la formulación de políticas públicas y aquellas personas con distintas experiencias y conocimientos pudieran hablar entre sí para diseñar soluciones aplicables a las causas de la corrupción
+    imagine3: Imagina si las personas más creativas de la comunidad global de innovadores pudieran hablar directamente con las instituciones que tienen el poder y la responsabilidad de implementar nuevas políticas y servicios para combatir a la corrupción
   view_the_playbook: Ver el Manual
-  request_an_invitation: Solicita una Invitación
+  request_an_invitation: Quiero Participar
   view_the_schedule: Ver el Calendario
   methodology: Metodología
   participate: Participa
   explore_the_expert_map: Explora el mapa de expertos y expertas
   project_description: Descripción del proyecto
   view_the_schedule_text: >
-    En una serie de conferencias semanales, de dos horas de duración, realizadas a través de la red, expertos de todo el mundo analizarán formas innovadoras y prácticas de abordar las causas del zika y de las enfermedades trasmitidas por mosquitos. Esos coloquios de pequeños grupos de personas están destinados a promover la aportación de ideas sobre nuevas estrategias aplicables, en conversación con los funcionarios gubernamentales encargados de hacer frente a las epidemias.
+    En una serie de conferencias en línea durante junio y julio de 2017, de dos horas de duración, expertos y expertas de todo el mundo conversarán sobre enfoques innovadores y prácticos para combatir la corrupción y sus causas. Estos coloquios de pequeños grupos de personas tendrán el objetivo de aportar ideas sobre nuevas estrategias de combate a la corrupción en un diálogo con las y los funcionarios gubernamentales quienes serían las y los encargados de implementarlas.
+
+    <strong>Una vez terminadas las conferencias, las mejores ideas serán seleccionadas y se desarrollará una guía para la implementación rápida de las mismas, por parte del gobierno de México.</strong>
   request_an_invitation_text: >
-    <strong>¿Te gustaría compartir tus habilidades para afrontar emergencias de salud pública?</strong> ¿Tratar temas con distintos innovadores y profesionales para perfeccionar ideas buenas y convertirlas en proyectos aplicables? Participa en una conversación con gobiernos interesados en poner en práctica nuevos enfoques para combatir el zika y otras enfermedades trasmitidas por mosquitos.
+    <strong>¿Te gustaría compartir tus conocimientos y habilidades para combatir la corrupción en México y conversar con expertos y expertas globales cómo tus buenas ideas podrían convertirse en soluciones implementables?</strong> Participa en una conversación con el Gobierno Federal de México que está interesado en implementar nuevos enfoques y herramientas para combatir la corrupción.
   view_the_playbook_text: >
-    Para obtener más información de fondo sobre el <strong>Crowdsourcing Inteligente: zika<strong>, lea nuestro manual, una guía detallada para el desarrollo del proyecto. Aporta respuestas a las preguntas formuladas con frecuencia sobre la participación en esta iniciativa.
+    Para obtener más información sobre el modelo de Smarter Crowdsourcing, consulte la siguiente guía detallada para el desarrollo del proyecto.
   video_caption: Presentación del proyecto en Conferencia CityLab, Octubre 2016
   resources: Recursos
   article_in_spanish:
@@ -40,12 +43,43 @@ index:
 about:
   h1: Acerca de
   content: >
-    <p>Las emergencias complejas y mundiales de salud pública, tales como el zika, el dengue y el chikungunya, presentan una amenaza a la salud y bienestar públicos, pueden desestabilizar el comercio regional y la economía mundial y causar incertidumbre y preocupación general.</p>
-    <p>En respuesta, el Governance Lab y el Banco Interamericano de Desarrollo, en colaboración con los gobiernos de la <strong>Ciudad de Río de Janeiro</strong>, <strong>Argentina</strong>, <strong>Colombia</strong> y <strong>Panamá</strong>, están patrocinando una serie de conferencias en línea que se celebran de agosto a octubre de 2016.</p>
-    <p>En lugar de que un grupo de personas se reúnan una vez, a un elevado costo, en un salón de conferencias, usaremos el Internet para movilizar y depurar conocimientos especializados diversos y distribuidos – tanto competencia técnica acreditada como sabiduría experiencial – para identificar, diseñar y repetir ideas aplicables que los gobiernos puedan usar.<p>
-    <p>¿El objetivo? aportar las mejores ideas y convertir ideas buenas en propuestas aplicables, respaldadas por pruebas.</p>
-  contact: Si tiene alguna pregunta, sírvase enviar un correo electrónico a
+    <p>The Governance Lab de la Universidad de Nueva York (GovLab) y The Governance Innovation Clinic de la Universidad de Yale, en coordinación con el Banco Interamericano de Desarrollo (BID) y la Secretaría de la Función Pública de México, están desarrollando un proyecto en México que busca convocar a expertos globales para identificar e implementar enfoques innovadores para combatir la corrupción.</p>
+    <p>Aprovechando nuestra experiencia en el uso del método de Smarter Crowdsourcing para encontrar soluciones a problemas complejos, estamos organizando una serie de 6 conferencias en línea durante el mes de Junio y Julio de 2017 con expertos y expertas de todo el mundo. Las conferencias versarán sobre posibles estrategias para combatir la corrupción, incrementar la transparencia y mejorar la confianza en las instituciones, usando las tecnologías de la información, datos e innovación. La meta es identificar propuestas que puedan ser ejecutadas eficazmente en el nivel federal y local, y con esto aportar mejoras cuantificables en la vida de las y los ciudadanos.</p>
+    <h3>¿Qué es Smarter Crowdsourcing?</h3>
+    <p>Smarter Crowdsourcing es un método que permite descubrir, de manera rápida, soluciones efectivas e innovadoras a problemas complejos y difíciles de definir.</p>
+    <p>El método combina:
+    <ul><li>La agilidad y la diversidad de una “llamada abierta” (en inglés open call o crowdsourcing);</li>
+    <li>La búsqueda especializada de expertos y expertas con conocimientos técnicos relevantes;</li>
+    <li>Una rigurosa definición de problema, y;</li>
+    <li>Un formato de discusión diseñado para producir propuestas efectivas e implementables.</li></p>
+  contact: Una vez terminadas las conferencias, las mejores ideas serán seleccionadas y se desarrollará una guía para la implementación rápida de las mismas, por parte del gobierno de México.
   button: Descarga una descripción breve del proyecto
+topics:
+  under_consideration:
+    t1:
+      title: IDENTIFICANDO LOS MOMENTOS EN LOS QUE OCURRE LA CORRUPCIÓN
+      sub1: Hot Spots
+      desc1: ¿Cómo podemos usar la tecnología, incluyendo big data y crowdsourcing, para facilitar la denuncia pública de la corrupción y para detectar "puntos críticos" (por ejemplo, geográficos, de nivel de servicio y tipo) de corrupción, para con estos datos desarrollar ideas y soluciones que apoyen en los esfuerzos de aplicación de la ley?
+      sub2: Prioridades Públicas
+      desc2: ¿Cómo podemos comprender de manera rápida, iterativa y más concreta a quién le afecta la corrupción y cómo?
+      sub3: Herramientas Analíticas
+      desc3: ¿Qué tipo de métodos analíticos pueden utilizar los gobiernos para detectar rápidamente casos potenciales de corrupción? ¿Qué tipo de métodos analíticos puede utilizar la sociedad civil (con respecto a los datos públicamente disponibles)?
+      sub4: Capacidades Analíticas
+      desc4: ¿Cuáles son las capacidades analíticas requeridas y cómo se pueden encontrar e incorporar rápidamente a personas con esa experiencia en la lucha contra la corrupción (tanto dentro del gobierno como en la sociedad civil en general)?
+    t2:
+      title: CAMBIO DE COMPORTAMIENTOS
+      sub1: Ética Empresarial
+      desc1: ¿Qué estrategias pueden emplearse para incentivar a las empresas a combatir la corrupción internamente?
+      sub2: Educación Pública
+      desc2: ¿Cómo podemos desarrollar estrategias innovadoras para enseñar a las personas, especialmente a las y los jóvenes, qué es el comportamiento ético, qué es la corrupción, cómo pueden luchar contra la corrupción y cómo pueden exigir sus derechos a servicios éticos por parte del gobierno?
+      sub3: Integridad Periodística
+      desc3: ¿Qué fuerzas y obstáculos enfrentan los medios de comunicación en México con respecto a la denuncia de corrupción? ¿Cuáles son las mejores estrategias para garantizar la seguridad, integridad y capacidad de los medios de comunicación de México?
+      sub4: Di que no
+      desc4: ¿Qué factores incentivan a que las y los ciudadanos sean partícipes en las prácticas corruptas o, alternativamente, a negarse a participar en la corrupción cuando se les presenta la oportunidad de hacerlo? ¿Cómo puede el gobierno y la sociedad civil diseñar incentivos para que las personas no cometan actos corruptos?
+    t3:
+      title: REFORMA DEL SECTOR JUDICIAL
+      sub1: Reforma del sistema de justicia
+      desc1: ¿Cuáles son los factores subyacentes a la corrupción judicial en México, dónde se produce y  cómo es que estos factores serán abordados adecuadamente por las recientes reformas en México que han llevado a la creación de un nuevo Tribunal Federal de Justicia Administrativa y una nueva Fiscalía General?
 map:
   regions:
     africa: Africa
