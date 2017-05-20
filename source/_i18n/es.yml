@@ -93,6 +93,46 @@ map:
     affiliation: SECTOR
     topic: TEMA
     organization: ORGANIZACIÓN
+register:
+  h1: Register
+  intro: >
+    <p>
+      A través de la iniciativa de <b>Smarter Crowdsourcing | Anticorrupción</b> se llevarán a cabo seis conferencias en línea, de dos horas de duración, durante los meses de junio y julio de 2017. El objetivo de las conferencias es el que expertos y expertas de todo el mundo dialoguen sobre enfoques innovadores y prácticos para combatir la corrupción y sus causas.
+    </p>
+    <p>Estos coloquios de pequeños grupos de personas tendrán el objetivo de aportar ideas sobre nuevas estrategias de combate a la corrupción en un diálogo con las y los funcionarios gubernamentales quienes serían las y los encargados de implementarlas.</p>
+    <p><b>Una vez terminadas las conferencias, las mejores ideas serán seleccionadas y se desarrollará una guía para la implementación rápida de las mismas, por parte del gobierno de México.</b></p>
+    <p><b>¿Te gustaría compartir tus conocimientos y habilidades para combatir la corrupción en México y conversar con expertos y expertas globales cómo tus buenas ideas podrían convertirse en soluciones implementables?</b> Participa en una conversación con el Gobierno Federal de México que está interesado en implementar nuevos enfoques y herramientas para combatir la corrupción.</p>
+  first_name: Nombre
+  last_name: Apellido
+  email: Correo electrónico
+  org: Nombre de la organización a la que perteneces
+  note1: >
+    Por favor elige dentro de los siguientes temas, en cuál crees que podrías contribuir mejor y para el cual también te quieres comprometer a participar. El compromiso de participación involucra:
+    <ol>
+    <li>Leer la descripción del problema base de la conferencia (3-5 páginas); y, </li>
+    <li>Participar activamente en la discusión compartiendo tu conocimiento y experiencia.</li>
+    </ol>
+  conf_topics: >
+    <b>Temas de las Conferencias</b>
+    <br><i>Puedes seleccionar más de una conferencia en caso de que lo consideres pertinent</i>
+  conf1: "Medición Efectiva de la Corrupción y sus Costos: Martes, Junio 6, 2017, 10am - 12pm EST"
+  conf2: "Corrupción Judicial: Martes, Junio 20, 2017, 10am - 12pm EST"
+  conf3: "Participación Ciudadana en la Creación de Políticas Públicas: Martes, Junio 27, 2017,  10am - 12pm EST"
+  conf4: "Denuncias y Protección a Denunciantes de la Corrupción: Martes, Julio 11, 2017, 10am - 12pm EST"
+  conf5: "Procuración de Justicia Eficaz: Martes, Julio 18, 2017, 10am - 12pm EST"
+  conf6: "Rastreando y Analizando los Flujos de Capital: Martes, Julio 25, 2017, 10am - 12pm EST"
+  first_time: "¿Es la primera vez que te registras para participar en una iniciativa de <b>Smarter Crowdsourcing</b>?"
+  pos: "Yes"
+  neg: "No"
+  about: Por favor describe tu perfil de conocimientos (experiencia, habilidades e intereses) que tiene relación con las conferencias seleccionadas
+  city: "<b>¿Cuál es tu ubicación actual?</b><br><br>Ciudad"
+  country: "País"
+  suggest: "¿Tienes sugerencias de otras personas a quien creas que debemos de participar? ¿Nos podrías facilitar sus datos de contacto?"
+  note2: >
+    Por favor toma en cuenta que, en un esfuerzo por hacer que la conversación sea significativa, estamos limitando el tamaño de cada grupo. Posterior a su inscripción confirmaremos si es posible participar y en ese caso te proporcionaremos las instrucciones de inicio de sesión mediante correo electrónico.
+  privacy_title: AVISO DE PRIVACIDAD
+  privacy_statement: >
+    Gracias por ofrecerte a participar en la iniciativa Smarter Crowdsourcing | Anticorrupción. En caso de ser seleccionado, la información que recopilamos sobre tu identidad personal se hará pública con el propósito de comunicar tu participación (y la de las y los demás participantes) en las próximas conferencias en línea. Con este espíritu de apertura, publicaremos los nombres, afiliaciones y ubicaciones de quienes participen en las mismas. Sin embargo, no compartiremos tu información de contacto. Si tiene alguna pregunta, por favor envíe un correo electrónico a: dinorah@thegovlab.org.
 footer:
   text: EN COLABORACIÓN CON
   copyright:

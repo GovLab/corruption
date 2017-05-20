@@ -1,40 +1,41 @@
 $(document).ready(function() {
   $(document).ready(function() {
 
-    var firstNameInput = $("#entry_1253314825"),
-        lastNameInput = $("#entry_579020446"),
-        emailInput = $("#entry_945637751"),
-        organizationInput = $("#entry_1431036681"),
-        conferenceSelection1Input = $("#group_1463462154_1"),
-        conferenceSelection2Input = $("#group_1463462154_2"),
-        conferenceSelection3Input = $("#group_1463462154_3"),
-        conferenceSelection4Input = $("#group_1463462154_4"),
-        conferenceSelection5Input = $("#group_1463462154_5"),
-        conferenceSelection6Input = $("#group_1463462154_6"),
-        pastParticipantsYesInput = $('#group_351358348_1'),
-        pastParticipantsNoInput = $('#group_351358348_2'),
-        aboutMeRequiredInput = $("#entry_2034790886"),
-        aboutMeNotRequiredInput = $("#entry_1375254264"),
-        cityInput = $("#entry_1389641910"),
-        countryInput = $("#entry_344739365"),
-        otherParticipantsInput = $("#entry_2129327437");
+    var firstNameInput = $("#entry_892126935"),
+    lastNameInput = $("#entry_975222627"),
+    emailInput = $("#entry_360773413"),
+    organizationInput = $("#entry_651156814"),
+    conferenceSelection1Input = $("#group_1463462154_1"),
+    conferenceSelection2Input = $("#group_1463462154_2"),
+    conferenceSelection3Input = $("#group_1463462154_3"),
+    conferenceSelection4Input = $("#group_1463462154_4"),
+    conferenceSelection5Input = $("#group_1463462154_5"),
+    conferenceSelection6Input = $("#group_1463462154_6"),
+    pastParticipantsYesInput = $('#group_351358348_1'),
+    pastParticipantsNoInput = $('#group_351358348_2'),
+    aboutMeRequiredInput = $("#entry_1572836865"),
+    aboutMeNotRequiredInput = $("#entry_1375254264"),
+    cityInput = $("#entry_37395513"),
+    countryInput = $("#entry_386294823"),
+    otherParticipantsInput = $("#entry_1153702841");
 
     var requiredFields = [firstNameInput,lastNameInput,emailInput, organizationInput, aboutMeRequiredInput, cityInput, countryInput];
 
-    function noNullFields() { 
+    function noNullFields() {
       var noBlankFields=true;
       requiredFields.forEach(function(data) {
         if (data.val()) {
           console.log(data.val());
-          $(data).removeClass("invalid").addClass("valid");
+          data.removeClass("invalid").addClass("valid");
         } else {
-          $(data).removeClass("valid").addClass("invalid");
+          console.log(data);
+          data.removeClass("valid").addClass("invalid");
           noBlankFields = false;
         }
       });
-        if (!noBlankFields) {
-          $('.error-messages').append('<p>Please fill out all required fields</p>');
-        }
+      if (!noBlankFields) {
+        $('.error-messages').append('<p>Please fill out all required fields</p>');
+      }
       return noBlankFields;
     }
 
@@ -130,7 +131,7 @@ $(document).ready(function() {
         liveValidateNullFields(requiredFields);
         $('html, body').animate({
           scrollTop: $(".error-messages").offset().top
-      }, 200);
+        }, 200);
         console.log("Form not submitted");
         e.preventDefault();
       } else {
@@ -142,10 +143,10 @@ $(document).ready(function() {
 
     function validateForm() {
       $('.error-messages').text("");
-        validated = noNullFields(requiredFields) && validateEmailAddress() && validateConferenceSelect() && validatePastParticipants() ;
+      validated = noNullFields(requiredFields) && validateEmailAddress() && validateConferenceSelect() && validatePastParticipants() ;
     }
 
-    function liveValidateNullFields(requiredFields) {  
+    function liveValidateNullFields(requiredFields) {
       requiredFields.forEach(function(field) {
         field.on("input", function() {
           if (!field.val()) {
