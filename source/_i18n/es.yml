@@ -94,7 +94,7 @@ map:
     topic: TEMA
     organization: ORGANIZACIÓN
 register:
-  h1: Register
+  h1: Smarter Crowdsourcing | Anticorrupción
   intro: >
     <p>
       A través de la iniciativa de <b>Smarter Crowdsourcing | Anticorrupción</b> se llevarán a cabo seis conferencias en línea, de dos horas de duración, durante los meses de junio y julio de 2017. El objetivo de las conferencias es el que expertos y expertas de todo el mundo dialoguen sobre enfoques innovadores y prácticos para combatir la corrupción y sus causas.
@@ -122,7 +122,7 @@ register:
   conf5: "Procuración de Justicia Eficaz: Martes, Julio 18, 2017, 10am - 12pm EST"
   conf6: "Rastreando y Analizando los Flujos de Capital: Martes, Julio 25, 2017, 10am - 12pm EST"
   first_time: "¿Es la primera vez que te registras para participar en una iniciativa de <b>Smarter Crowdsourcing</b>?"
-  pos: "Yes"
+  pos: "Sí"
   neg: "No"
   about: Por favor describe tu perfil de conocimientos (experiencia, habilidades e intereses) que tiene relación con las conferencias seleccionadas
   city: "<b>¿Cuál es tu ubicación actual?</b><br><br>Ciudad"
