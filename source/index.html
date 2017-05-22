@@ -23,13 +23,7 @@ custom_body: homepage
 
     </div>
     <div class="text-centered" style="margin-bottom: -60px; z-index: 1;">
-      {% capture es_link %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-      {% capture en_link %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
-      {% if site.lang == "es" %}
-      <a href='{{ en_link }}' class='button button--accent-color'>{% t index.read_language %}</a>
-      {% elsif site.lang == "en"%}
-      <a href='{{ es_link }}' class='button button--accent-color'>{% t index.read_language %}</a>
-      {% endif %}
+      <a href='https://docs.google.com/document/d/1lRHQ_Gx27R1hicJcHk905G_5l-OfhmnLJNc-o2lFML8' target="_blank" class='button button--accent-color'>{% t index.read_language %}</a>
     </div>
 
   </section>
