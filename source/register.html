@@ -7,7 +7,15 @@ layout: default
   <!-- <div class="row expanded"> -->
   <h1>{% t register.h1 %}</h1>
   <!-- </div> -->
-
+  <div class="main-buttons">
+    {% capture es_link %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+    {% capture en_link %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
+    {% if site.lang == "es" %}
+    <a href='{{ en_link }}' class='button button--accent-color'>{% t index.read_language %}</a>
+    {% elsif site.lang == "en"%}
+    <a href='{{ es_link }}' class='button button--accent-color'>{% t index.read_language %}</a>
+    {% endif %}
+  </div>
 </section>
 
 <section class="page-section">
@@ -23,7 +31,7 @@ layout: default
     <div class="medium-10 large-8 column">
       <span class="error-messages"></span>
       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(typeof submitted !== 'undefined') {window.location='confirmation.html';}"></iframe>
-        <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSfzUBJiMoEPTVWXizOaPBLGBbWO_NJGnHpwuoMTFEO1dxkokQ/formResponse" method="POST" onsubmit="submitted=true;" target="hidden_iframe">
+      <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSfzUBJiMoEPTVWXizOaPBLGBbWO_NJGnHpwuoMTFEO1dxkokQ/formResponse" method="POST" onsubmit="submitted=true;" target="hidden_iframe">
         <!-- FIRST NAME -->
         <label class="form-field-label" for="entry_892126935"><div class="form-field-title field-required">{% t register.first_name %}</div></label>
         <input type="text" id="entry_892126935" name="entry.892126935" value="" class="ss-q-short" dir="auto" aria-label="First Name" aria-required="true" required="" title="" required></label>
@@ -41,85 +49,85 @@ layout: default
         <label for="entry_2107053402"><div class="form-field-title field-required">{% t register.conf_topics %}
         </div>
         <ul class="form-checkbox-group" role="group" aria-label="">
-        <!-- ACTIVE CONFERENCES -->
-        <li>
-          <div class="checkbox">
-            <input id="group_1463462154_1" name="entry.1044251979" role="checkbox" type="checkbox" value="Measuring Corruption and its Costs: June 6th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_1">{% t register.conf1 %}</label>
-          </div>
-        </li>
-        <li>
-          <div class="checkbox">
-            <input id="group_1463462154_2" name= "entry.1044251979" role="checkbox" type="checkbox" value="Countering Judicial Corruption: June 20th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_2">{% t register.conf2 %}</label>
-          </div>
-        </li>
-        <li>
-          <div class="checkbox">
-            <input id="group_1463462154_3" name="entry.1044251979" role="checkbox" type="checkbox" value="Citizen Participation in Policymaking: June 27th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_3">{% t register.conf3 %}</label>
-          </div>
-        </li>
-        <li>
-          <div class="checkbox">
-            <input id="group_1463462154_4" name="entry.1044251979" role="checkbox" type="checkbox" value="Ensuring Whistleblower Support and Protection: July 11th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_4">{% t register.conf4 %}</label>
-          </div>
-        </li>
-        <li>
-          <div class="checkbox">
-            <input id="group_1463462154_5" name="entry.1044251979" role="checkbox" type="checkbox" value="Increasing the Effectiveness of Prosecution: July 18th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_5">{% t register.conf5 %}</label>
-          </div>
-        </li>
-        <li>
-          <div class="checkbox">
-            <input id="group_1463462154_6" name="entry.1044251979" role="checkbox" type="checkbox" value="Tracking and Analyzing Money Flows: July 25th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_6">{% t register.conf6 %}</label>
-          </div>
-        </li>
+          <!-- ACTIVE CONFERENCES -->
+          <li>
+            <div class="checkbox">
+              <input id="group_1463462154_1" name="entry.1044251979" role="checkbox" type="checkbox" value="Measuring Corruption and its Costs: June 6th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_1">{% t register.conf1 %}</label>
+            </div>
+          </li>
+          <li>
+            <div class="checkbox">
+              <input id="group_1463462154_2" name= "entry.1044251979" role="checkbox" type="checkbox" value="Countering Judicial Corruption: June 20th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_2">{% t register.conf2 %}</label>
+            </div>
+          </li>
+          <li>
+            <div class="checkbox">
+              <input id="group_1463462154_3" name="entry.1044251979" role="checkbox" type="checkbox" value="Citizen Participation in Policymaking: June 27th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_3">{% t register.conf3 %}</label>
+            </div>
+          </li>
+          <li>
+            <div class="checkbox">
+              <input id="group_1463462154_4" name="entry.1044251979" role="checkbox" type="checkbox" value="Ensuring Whistleblower Support and Protection: July 11th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_4">{% t register.conf4 %}</label>
+            </div>
+          </li>
+          <li>
+            <div class="checkbox">
+              <input id="group_1463462154_5" name="entry.1044251979" role="checkbox" type="checkbox" value="Increasing the Effectiveness of Prosecution: July 18th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_5">{% t register.conf5 %}</label>
+            </div>
+          </li>
+          <li>
+            <div class="checkbox">
+              <input id="group_1463462154_6" name="entry.1044251979" role="checkbox" type="checkbox" value="Tracking and Analyzing Money Flows: July 25th, 2017, 10am - 12pm EST" aria-required="true"><label for="group_1463462154_6">{% t register.conf6 %}</label>
+            </div>
+          </li>
         </ul>
         <!-- PAST PARTICIPANTS -->
         <label for="entry_553977394"><div class="form-field-title field-required">{% t register.first_time %}</div></label>
         <ul class="form-radio-group" role="radiogroup" aria-label="Is this your first time applying to participate in a Smarter Crowdsourcing online conference?">
-        <li>
-          <label>
-            <div class="radio"><input type="radio" name="entry.136681574" value="Yes" id="group_351358348_1" role="radio" class="ss-q-radio" aria-label="Yes">
-            <label for="group_351358348_1">{% t register.pos %}</label>
-            </div>
-          </label>
-        </li>
-        <li>
-          <label>
-            <div class="radio"><input type="radio" name="entry.136681574" value="No" id="group_351358348_2" role="radio" class="ss-q-radio" aria-label="No">
-           <label for="group_351358348_2">{% t register.neg %}</label>
-            </div>
-         </label>
-        </li>
-        </ul>
-        <!-- ABOUT ME - REQUIRED -->
-        <label class="form-field-label" for="entry_1572836865"><div class="form-field-title field-required">{% t register.about %}</div></label>
-        <textarea rows="8" cols="0"  name="entry.1572836865" id="entry_1572836865" aria-label="Please briefly describe your background and your expertise (experience, skills and interests) in connection with the conferences you have specified.  " aria-required="true" required=""></textarea>
-        <!-- CITY -->
-        <label class="form-field-label" for="entry_37395513"><div class="form-field-title field-required">{% t register.city %}</div></label>
-        <input type="text" name="entry.37395513" value="" class="ss-q-short" id="entry_37395513" dir="auto" aria-label="City  " aria-required="true" required="" title="">
-        <!-- COUNTRY -->
-        <label class="form-field-label" for="entry_386294823"><div class="form-field-title field-required">{% t register.country %}</div></label>
-        <input type="text" name="entry.386294823" value="" class="ss-q-short" id="entry_386294823" dir="auto" aria-label="Country  " aria-required="true" required="" title="">
-        <!-- OTHER PARTICIPANTS -->
-        <label class="form-field-label" for="entry_1153702841"><div class="form-field-title">{% t register.suggest %}</div></label>
-        <textarea name="entry.1153702841" rows="8" cols="0" class="ss-q-long" id="entry_1153702841" dir="auto" aria-label="Do you have suggestions of other participants?  "></textarea>
-        <input type="hidden" name="draftResponse" value="[,,&quot;933836574473359503&quot;]
-        ">
-        <input type="hidden" name="pageHistory" value="0">
-        <input type="hidden" name="fbzx" value="933836574473359503">
-        <p>{% t register.note %}</p>
-        <input type="submit" name="submit" value="Submit" id="form-submit" class=" button jfk-button jfk-button-action ">
-        </form>
-      </div>
-    </div>
-  </div>
+          <li>
+            <label>
+              <div class="radio"><input type="radio" name="entry.136681574" value="Yes" id="group_351358348_1" role="radio" class="ss-q-radio" aria-label="Yes">
+                <label for="group_351358348_1">{% t register.pos %}</label>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label>
+              <div class="radio"><input type="radio" name="entry.136681574" value="No" id="group_351358348_2" role="radio" class="ss-q-radio" aria-label="No">
+               <label for="group_351358348_2">{% t register.neg %}</label>
+             </div>
+           </label>
+         </li>
+       </ul>
+       <!-- ABOUT ME - REQUIRED -->
+       <label class="form-field-label" for="entry_1572836865"><div class="form-field-title field-required">{% t register.about %}</div></label>
+       <textarea rows="8" cols="0"  name="entry.1572836865" id="entry_1572836865" aria-label="Please briefly describe your background and your expertise (experience, skills and interests) in connection with the conferences you have specified.  " aria-required="true" required=""></textarea>
+       <!-- CITY -->
+       <label class="form-field-label" for="entry_37395513"><div class="form-field-title field-required">{% t register.city %}</div></label>
+       <input type="text" name="entry.37395513" value="" class="ss-q-short" id="entry_37395513" dir="auto" aria-label="City  " aria-required="true" required="" title="">
+       <!-- COUNTRY -->
+       <label class="form-field-label" for="entry_386294823"><div class="form-field-title field-required">{% t register.country %}</div></label>
+       <input type="text" name="entry.386294823" value="" class="ss-q-short" id="entry_386294823" dir="auto" aria-label="Country  " aria-required="true" required="" title="">
+       <!-- OTHER PARTICIPANTS -->
+       <label class="form-field-label" for="entry_1153702841"><div class="form-field-title">{% t register.suggest %}</div></label>
+       <textarea name="entry.1153702841" rows="8" cols="0" class="ss-q-long" id="entry_1153702841" dir="auto" aria-label="Do you have suggestions of other participants?  "></textarea>
+       <input type="hidden" name="draftResponse" value="[,,&quot;933836574473359503&quot;]
+       ">
+       <input type="hidden" name="pageHistory" value="0">
+       <input type="hidden" name="fbzx" value="933836574473359503">
+       <p>{% t register.note %}</p>
+       <input type="submit" name="submit" value="Submit" id="form-submit" class=" button jfk-button jfk-button-action ">
+     </form>
+   </div>
+ </div>
+</div>
 </section>
 
 <section class="page-section page-section--theme-color">
   <div class="row align-center">
     <div class="medium-10 large-8 column">
-        <h4>{% t register.privacy_title %}</h4>
-        <p>{% t register.privacy_statement %}</p>
-      </div>
+      <h4>{% t register.privacy_title %}</h4>
+      <p>{% t register.privacy_statement %}</p>
     </div>
+  </div>
 </section>

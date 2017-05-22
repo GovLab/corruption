@@ -1,5 +1,5 @@
 global:
-  title: "Smarter Crowdsourcing: Zika"
+  title: "Smarter Crowdsourcing: Anti-Corruption"
   home: Home
   about: About
   team: Team
@@ -59,7 +59,7 @@ map:
     topic: Topic
     organization: Organization
 register:
-  h1: Smarter Crowdsourcing | Anti-Corruption
+  h1: Participate
   intro: >
     <p>To identify innovative yet practical approaches to fight corruption in Mexico, Smarter Crowdsourcing | Anti-corruption will host six online conferences during Summer 2017, convening global experts from a variety of fields, including public administration, data analytics, technology, business, and law enforcement. </p>
     <p>In a series of 2-hour web-based conferences, experts from around the world will discuss innovative and practical ways to tackle the root causes of corruption. These small-group discussions are intended to foster brainstorming of actionable new strategies in conversation with those government officials responsible for tackling corruption in Mexico.</p>
