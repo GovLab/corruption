@@ -208,7 +208,7 @@
   conference_slug: corrupcion-judicial-conference
   id: 02
   is_active: true
-  image:
+  image: judicial-corruption-bw.png
   short_description: >
     ¿Cómo incrementar la transparencia y la supervisión en el sistema judicial sin socavar la independencia y la autonomía del poder judicial? ¿Qué medidas aseguran juicios y procesos íntegros, apegados a la ley?
   focus:
@@ -244,7 +244,7 @@
   conference_slug: participacion-ciudadana-en-la-creacion-de-politicas-publicas-conference
   id: 05
   is_active: true
-  image: trash-bw.jpg
+  image: participation-bw.png
   short_description: >
     ¿Cómo se puede aumentar, de forma signicativa, inclusiva y visible, el acceso de las y los ciudadanos al proceso de formulación de políticas públicas de combate a la corrupción?
   focus: La basura y los envases se llenan de agua estancada donde se reproducen los mosquitos.  El objetivo de la sesión es identificar métodos innovadores y efectivos para evitar que la acumulación de desechos y los depósitos de agua se conviertan en más fuentes de reproducción de mosquitos.
@@ -469,7 +469,7 @@
   conference_slug: denuncias-y-proteccion-a-denunciantes-de-la-corrupcion-conference
   id: 01
   is_active: true
-  image: communication-and-behavior-change.jpg
+  image: palace-national-bw.png
   short_description: >
     ¿Qué elementos disuaden a quienes podrían denunciar y proporcionar información sobre casos de corrupción de no hacerlo? ¿Cómo puede el gobierno desarrollar sistemas de protección a denunciantes que resguarden su anonimato y garantice al mismo tiempo la admisibilidad jurídica de tales pruebas? ¿Cómo procesar y organizar las denuncias para que se maximice la eficiencia de la investigación?
   focus: Hay nuevas oportunidades, incluidos enfoques innovadores y nuevos medios de comunicación, para mejorar el modo en que los gobiernos se comunican con el público a fin de crear mayores incentivos orientados a ese cambio de conductas necesario para mitigar el riesgo del zika y las enfermedades transmitidas por mosquitos. El objetivo de esta sesión es identificar enfoques innovadores de comunicación que superen la inercia intrínseca, las creencias preconcebidas y la desinformación e induzcan un cambio de conductas sostenido.
@@ -717,7 +717,7 @@
   conference_slug: procuracion-de-justicia-eficaz-conference
   id: 03
   is_active: true
-  image:
+  image: supreme-court-bw.png
   short_description: >
     ¿Qué factores internos y externos impiden que se inicien y conduzcan investigaciones contra funcionarios corruptos? ¿Cómo pueden los gobiernos y la sociedad civil asegurar que las y los investigadores cuenten con las herramientas necesarias para reunir evidencia sólida sobre un acto de corrupción? ¿Qué información y mecanismos pueden asegurar un adecuado seguimiento y evaluación de los procesos penales por corrupción?
   focus:
@@ -752,7 +752,7 @@
   conference_slug: rastreando-y-analizando-los-flujos-de-capital-conference
   id: 00
   is_active: true
-  image: assessing-public-awareness.jpg
+  image: money.png
   short_description: >
     ¿Qué es necesario para rastrear los flujos de recursos públicos público hasta su último destino? ¿Qué tipo de tecnología y enfoques basados en datos podrían utilizar tanto el gobierno como la sociedad civil para prevenir y detectar casos de corrupción en las finanzas públicas?
   focus: Las campañas de salud pública para prevenir la infección pueden ser perfeccionadas con más prácticas basadas en evidencia que contribuyan a una mejor comprensión pública de las enfermedades transmitidas por mosquitos (ETM) y sus consecuencias. El objetivo de esta sesión es identificar métodos innovadores y efectivos para conocer lo que la gente sabe y lo que no sabe.
