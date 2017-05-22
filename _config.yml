@@ -17,8 +17,8 @@ title: 'Crowdsourcing Inteligente | Anti-Corruption'
 email:
 description: > # this means to ignore newlines until "baseurl:"
 
-baseurl: "/corruption" # the subpath of your site, e.g. /blog
-url: "http://govlab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://anticorruption.smartercrowdsourcing.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 
