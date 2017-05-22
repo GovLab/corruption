@@ -14,122 +14,122 @@ layout: no-lang
       <h1>Temas</h1>
       <h3>Entendiendo por corrupción como “el abuso de poder para un beneficio privado”,  nos dimos a la tarea de identificar las causas económicas, políticas, sociales y culturales de la misma. Una vez hecho esto, enfocamos esta iniciativa en aquellos temas que se consideraron urgentes y prioritarios para México, no se abordan plenamente en las iniciativas anticorrupción existentes y, al mismo tiempo, son susceptibles de soluciones innovadoras y accionables.</h3>
       {% endcase %}
-      <!-- <div class="main-buttons">
-        <a href="https://docs.google.com/document/d/1NGAW0dL8EGO0iTyyKwyOEt2HzOVk-FrAQYHT8d0kjQ0/edit" class="button button--accent-color">Read this page IN ENGLISH</a>
-      </div> -->
+      <div class="main-buttons">
+        <a href="https://docs.google.com/document/d/1G5XgvmvMKRpvwzXU3d04uRkoNgxLeG4nQF77-OTOiXc"  target="_blank" class="button button--accent-color">IN ENGLISH</a>
+      </div>
     </div>
   </div>
 </section>
 <section>
   <div class="row expanded">
-        {% for topic in site.data.topics %}
-        <div class="large-6 small-12 column topic" style="background-image: url({{'/images/topics/resized/' | append: topic.image | relative_url}})">
+    {% for topic in site.data.topics %}
+    <div class="large-6 small-12 column topic" style="background-image: url({{'/images/topics/resized/' | append: topic.image | relative_url}})">
 
-          {%case site.lang %}
-          {% when "es" %}
-          <h1>{{topic.title}}</h1>
-          <p>{{topic.short_description}}</p>
-          {% when "pt" %}
-          <h1>{{topic.pt.title}}</h1>
-          <p>{{topic.pt.short_description}}</p>
-          {% when "en" %}
-          <h1>{{topic.en.title}}</h1>
-          <p>{{topic.en.short_description}}</p>
-          {% endcase %}
+      {%case site.lang %}
+      {% when "es" %}
+      <h1>{{topic.title}}</h1>
+      <p>{{topic.short_description}}</p>
+      {% when "pt" %}
+      <h1>{{topic.pt.title}}</h1>
+      <p>{{topic.pt.short_description}}</p>
+      {% when "en" %}
+      <h1>{{topic.en.title}}</h1>
+      <p>{{topic.en.short_description}}</p>
+      {% endcase %}
 
-          {% if topic.conference.is_active and topic.conference.is_active_info %}
-          <p><a href="{{ topic.slug }}.html" class="button button--theme-color">
-            {% t global.more_information %}ppp</a></p>
+      {% if topic.conference.is_active and topic.conference.is_active_info %}
+      <p><a href="{{ topic.slug }}.html" class="button button--theme-color">
+        {% t global.more_information %}ppp</a></p>
 
-            {% else %}
+        {% else %}
 
-            <p><a href="javascript: void(0)" class="button button--disabled">{% t global.more_information_soon %}</a></p>
+        <p><a href="javascript: void(0)" class="button button--disabled">{% t global.more_information_soon %}</a></p>
 
-            {% endif %}
+        {% endif %}
 
-            <div class="topic__date">
-              <h6>{% t global.conference_on %}</h6>
-              <span class="topic__month">{{ topic.conference.date | date: "%b"}}</span>
-              <em class="topic__day">{{ topic.conference.date | date: "%d" }}</em>
-            </div>
-          </div>
-          {% endfor %}
-  </div>
-</section>
-<div class="divider divider--main-color">
-  {% case site.lang %}
-  {% when "es" %}
-  <h1>Temas que se tuvieron bajo consideración</h1>
-  {% when "en" %}
-  <h1>Topics under Consideration</h1>
-  {% endcase %}
-</div>
-<div class="divider divider--theme-color-alt">
-  <h1>{% t topics.under_consideration.t1.title %}</h1>
-</div>
-<section>
-  <div class="row expanded align-center topic topic--inactive">
-    <div class="large-9 medium-10 column">
-      <h1>{% t topics.under_consideration.t1.sub1 %}</h1>
-      <p>{% t topics.under_consideration.t1.desc1 %}</p>
+        <div class="topic__date">
+          <h6>{% t global.conference_on %}</h6>
+          <span class="topic__month">{{ topic.conference.date | date: "%b"}}</span>
+          <em class="topic__day">{{ topic.conference.date | date: "%d" }}</em>
+        </div>
+      </div>
+      {% endfor %}
     </div>
+  </section>
+  <div class="divider divider--main-color">
+    {% case site.lang %}
+    {% when "es" %}
+    <h1>Temas que se tuvieron bajo consideración</h1>
+    {% when "en" %}
+    <h1>Topics under Consideration</h1>
+    {% endcase %}
   </div>
-  <div class="row expanded align-center topic topic--inactive">
-    <div class="large-9 medium-10 column">
-      <h1>{% t topics.under_consideration.t1.sub2 %}</h1>
-      <p>{% t topics.under_consideration.t1.desc2 %}</p>
+  <div class="divider divider--theme-color-alt">
+    <h1>{% t topics.under_consideration.t1.title %}</h1>
+  </div>
+  <section>
+    <div class="row expanded align-center topic topic--inactive">
+      <div class="large-9 medium-10 column">
+        <h1>{% t topics.under_consideration.t1.sub1 %}</h1>
+        <p>{% t topics.under_consideration.t1.desc1 %}</p>
+      </div>
     </div>
-  </div>
-  <div class="row expanded align-center topic topic--inactive">
-    <div class="large-9 medium-10 column">
-      <h1>{% t topics.under_consideration.t1.sub3 %}</h1>
-      <p>{% t topics.under_consideration.t1.desc3 %}</p>
+    <div class="row expanded align-center topic topic--inactive">
+      <div class="large-9 medium-10 column">
+        <h1>{% t topics.under_consideration.t1.sub2 %}</h1>
+        <p>{% t topics.under_consideration.t1.desc2 %}</p>
+      </div>
     </div>
-  </div>
-  <div class="row expanded align-center topic topic--inactive">
-    <div class="large-9 medium-10 column">
-      <h1>{% t topics.under_consideration.t1.sub4 %}</h1>
-      <p>{% t topics.under_consideration.t1.desc4 %}</p>
+    <div class="row expanded align-center topic topic--inactive">
+      <div class="large-9 medium-10 column">
+        <h1>{% t topics.under_consideration.t1.sub3 %}</h1>
+        <p>{% t topics.under_consideration.t1.desc3 %}</p>
+      </div>
     </div>
-  </div>
-</section>
-<div class="divider divider--theme-color-alt">
-  <h1>{% t topics.under_consideration.t2.title %}</h1>
-</div>
-<section>
-  <div class="row expanded align-center topic topic--inactive">
-    <div class="large-9 medium-10 column">
-      <h1>{% t topics.under_consideration.t2.sub1 %}</h1>
-      <p>{% t topics.under_consideration.t2.desc1 %}</p>
+    <div class="row expanded align-center topic topic--inactive">
+      <div class="large-9 medium-10 column">
+        <h1>{% t topics.under_consideration.t1.sub4 %}</h1>
+        <p>{% t topics.under_consideration.t1.desc4 %}</p>
+      </div>
     </div>
+  </section>
+  <div class="divider divider--theme-color-alt">
+    <h1>{% t topics.under_consideration.t2.title %}</h1>
   </div>
-  <div class="row expanded align-center topic topic--inactive">
-    <div class="large-9 medium-10 column">
-      <h1>{% t topics.under_consideration.t2.sub2 %}</h1>
-      <p>{% t topics.under_consideration.t2.desc2 %}</p>
+  <section>
+    <div class="row expanded align-center topic topic--inactive">
+      <div class="large-9 medium-10 column">
+        <h1>{% t topics.under_consideration.t2.sub1 %}</h1>
+        <p>{% t topics.under_consideration.t2.desc1 %}</p>
+      </div>
     </div>
-  </div>
-  <div class="row expanded align-center topic topic--inactive">
-    <div class="large-9 medium-10 column">
-      <h1>{% t topics.under_consideration.t2.sub3 %}</h1>
-      <p>{% t topics.under_consideration.t2.desc3 %}</p>
+    <div class="row expanded align-center topic topic--inactive">
+      <div class="large-9 medium-10 column">
+        <h1>{% t topics.under_consideration.t2.sub2 %}</h1>
+        <p>{% t topics.under_consideration.t2.desc2 %}</p>
+      </div>
     </div>
-  </div>
-  <div class="row expanded align-center topic topic--inactive">
-    <div class="large-9 medium-10 column">
-      <h1>{% t topics.under_consideration.t2.sub4 %}</h1>
-      <p>{% t topics.under_consideration.t2.desc4 %}</p>
+    <div class="row expanded align-center topic topic--inactive">
+      <div class="large-9 medium-10 column">
+        <h1>{% t topics.under_consideration.t2.sub3 %}</h1>
+        <p>{% t topics.under_consideration.t2.desc3 %}</p>
+      </div>
     </div>
-  </div>
-</section>
-<div class="divider divider--theme-color-alt">
-  <h1>{% t topics.under_consideration.t3.title %}</h1>
-</div>
-<section>
-  <div class="row expanded align-center topic topic--inactive">
-    <div class="large-9 medium-10 column">
-      <h1>{% t topics.under_consideration.t3.sub1 %}</h1>
-      <p>{% t topics.under_consideration.t3.desc1 %}</p>
+    <div class="row expanded align-center topic topic--inactive">
+      <div class="large-9 medium-10 column">
+        <h1>{% t topics.under_consideration.t2.sub4 %}</h1>
+        <p>{% t topics.under_consideration.t2.desc4 %}</p>
+      </div>
     </div>
+  </section>
+  <div class="divider divider--theme-color-alt">
+    <h1>{% t topics.under_consideration.t3.title %}</h1>
   </div>
-</section>
+  <section>
+    <div class="row expanded align-center topic topic--inactive">
+      <div class="large-9 medium-10 column">
+        <h1>{% t topics.under_consideration.t3.sub1 %}</h1>
+        <p>{% t topics.under_consideration.t3.desc1 %}</p>
+      </div>
+    </div>
+  </section>
