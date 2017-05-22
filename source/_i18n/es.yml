@@ -14,6 +14,7 @@ global:
   participate: Participa
   conference_on: Fecha de la conferencia
 index:
+  read_language: In English
   intro:
     p1: >
       A través de la iniciativa de Smarter Crowdsourcing | Anticorrupción se llevarán a cabo seis conferencias en línea para identificar enfoques innovadores y prácticos para combatir la corrupción en México. Mediante las conferencias, que se llevarán a cabo, el verano de 2017, se está convocando a expertos y expertas de distintos países en una variedad de campos, como administración pública, análisis y ciencia de datos, tecnología, negocios y aplicación de la ley, entre otros. El proyecto está diseñado para convertir las buenas ideas en soluciones implementables.
@@ -51,7 +52,8 @@ about:
     <ul><li>La agilidad y la diversidad de una “llamada abierta” (en inglés open call o crowdsourcing);</li>
     <li>La búsqueda especializada de expertos y expertas con conocimientos técnicos relevantes;</li>
     <li>Una rigurosa definición de problema, y;</li>
-    <li>Un formato de discusión diseñado para producir propuestas efectivas e implementables.</li></p>
+    <li>Un formato de discusión diseñado para producir propuestas efectivas e implementables.</li>
+    </ul></p>
   contact: Una vez terminadas las conferencias, las mejores ideas serán seleccionadas y se desarrollará una guía para la implementación rápida de las mismas, por parte del gobierno de México.
   button: Descarga una descripción breve del proyecto
 topics:
