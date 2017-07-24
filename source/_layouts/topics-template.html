@@ -23,11 +23,11 @@ layout: default
     {% when "es" %}
       {% if page.is_active and page.conference %}
       <a href="{{'/' | append: page.slug | append: '-conference.html' | relative_url}}" class="button button--accent-color">CONFERENCIA</a>
-      <a href="{{'/call-for-participants.html' | relative_url}}" class="button button--accent-color">Participa</a>
+      <a href="{{'/register.html' | relative_url}}" class="button button--accent-color">Participa</a>
       {% endif %}
     {% when "en" %}
     <a href="{{'/' | append: page.slug | append: '-conference.html' | relative_url}}" class="button button--accent-color">Conference</a>
-    <a href="{{'/call-for-participants.html' | relative_url}}" class="button button--accent-color">Participate</a>
+    <a href="{{'/register.html' | relative_url}}" class="button button--accent-color">Participate</a>
     {% endcase %}
   </div>
 </section>
@@ -78,6 +78,7 @@ layout: default
   </div>
   {% endif %}
 
+  {% if page.recommendations %}
   <div class="row align-center">
     <div class="column large-9 medium-10">
       <h5>RECOMMENDATIONS</h5>
@@ -172,5 +173,6 @@ layout: default
           </div>
         </div>
   </div>
+  {% endif %}
 </div>
 </section>
