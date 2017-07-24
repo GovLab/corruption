@@ -67,9 +67,9 @@ custom_body: homepage
           <p>{{topic.en.short_description}}</p>
           {% endcase %}
 
-          {% if topic.conference.is_active and topic.conference.is_active_info %}
+          {% if topic.conference.is_active %}
           <p><a href="{{ topic.slug }}.html" class="button button--theme-color">
-            {% t global.more_information %}ppp</a></p>
+            {% t global.more_information %}</a></p>
 
             {% else %}
 
