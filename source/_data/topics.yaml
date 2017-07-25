@@ -543,10 +543,11 @@
     </ol>
     </ol>
   topic_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
-  problem_description_summary:
+  problem_description_summary: >
+    Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_link: https://docs.google.com/document/d/1gjERxvyYcTPvKpNBhmWem0tMYVmBSuUObW8K4slFKXo/edit#heading=h.gjdgxs
-  problem_description_link_spanish:
-  english_document_link:
+  problem_description_link_spanish: https://docs.google.com/document/d/1gjERxvyYcTPvKpNBhmWem0tMYVmBSuUObW8K4slFKXo/edit
+  english_document_link: https://docs.google.com/document/d/1gjERxvyYcTPvKpNBhmWem0tMYVmBSuUObW8K4slFKXo/edit
   recommendations: false
   en:
     title: Governance and Coordination
@@ -604,7 +605,7 @@
   post_conference:
     is_active: true
     takeaways:
-    takeaways_link: https://docs.google.com/document/d/12jBTMwJVrM4bVQ0uTIkXNgrDUoTgqCIsyIlP62vADus/edit#heading=h.or1al3z7fn0n
+    takeaways_link:
     action_items:
     resources:
 
