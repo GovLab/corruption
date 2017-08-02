@@ -609,20 +609,38 @@
     action_items:
     resources:
 
-- title: Rastreando y Analizando los Flujos de Capital
+- title: Rastreando y Analizando Flujos de Capital
   slug: rastreando-y-analizando-los-flujos-de-capital
   conference_slug: rastreando-y-analizando-los-flujos-de-capital-conference
   id: 00
   is_active: true
   image: money.png
   short_description: >
-    ¿Qué es necesario para rastrear los flujos de recursos públicos público hasta su último destino? ¿Qué tipo de tecnología y enfoques basados en datos podrían utilizar tanto el gobierno como la sociedad civil para prevenir y detectar casos de corrupción en las finanzas públicas?
-  focus: Las campañas de salud pública para prevenir la infección pueden ser perfeccionadas con más prácticas basadas en evidencia que contribuyan a una mejor comprensión pública de las enfermedades transmitidas por mosquitos (ETM) y sus consecuencias. El objetivo de esta sesión es identificar métodos innovadores y efectivos para conocer lo que la gente sabe y lo que no sabe.
-  topic_description_summary: Los problemas fueron expuestos en un informe resumido con el objetivo de describir la causa del problema, los enfoques actuales en los diferentes países y las lecciones aprendidas de otros campos.
+    ¿Qué datos y tácticas son necesarias para asegurar registros efectivos de flujos de capital? ¿Qué herramientas y métodos se necesitan para analizar eficazmente los flujos de capital y con esto detectar y prevenir casos de corrupción en temas de contratación pública? ¿Qué instrumentos pueden emplear los gobiernos y la sociedad civil para respaldar registros confiables y verídicos de flujos de capital y análisis forenses eficaces?
+  focus: >
+    En esta conferencia, nos enfocaremos en responder a 3 preguntas sobre cómo rastrear y analizar flujos de capital para detectar, prevenir y combatir la corrupción en México:
+    <ol>
+    <li>¿Qué datos y tácticas son necesarias para asegurar registros efectivos de flujos de capital?</li>
+    <ol type="a">
+    <li><b>Propiedad.</b> ¿Qué datos pueden mostrar quién es quién y quién posee qué en las finanzas públicas?</li>
+    <li><b>Divulgación.</b> ¿Cómo pueden los datos sobre los flujos de capital ser recolectados y compartidos sin violar las leyes de privacidad?</li>
+    </ol>
+    <li>¿Qué herramientas y métodos se necesitan para analizar eficazmente los flujos de capital y con esto, detectar y prevenir casos de corrupción en la contratación pública?</li>
+    <ol type="a">
+    <li><b>Minería de datos a gran escala (big data).</b> ¿Cuáles herramientas para la minería de datos a gran escala (algoritmos, análisis predictivo, aprendizaje automatizado) pueden ser utilizados para agilizar o suplir efectivamente el trabajo de analistas forenses?</li>
+    <li><b>De la apertura al uso.</b> ¿Cómo pueden organizaciones de la sociedad civil, periodistas y el público hacer uso de los más recientes algoritmos forenses para analizar registros de flujo de capital?</li>
+    </ol>
+    <li>¿Qué instrumentos pueden emplear los gobiernos y la sociedad civil para asegurar registros confiables y verídicos de los flujos de dinero y un análisis forense eficaz?</li>
+    <ol type="a">
+    <li><b>Incentivos.</b> ¿Cómo pueden personas físicas y morales que trabajan en el sector financiero ser incentivados a declarar información verídica sobre el capital que controlan?</li>
+    <li><b>Control de calidad.</b> ¿Cómo pueden las agencias gubernamentales y la sociedad civil verificar que la información sobre flujos de capital sea verídica y precisa y que el análisis ejecutado para detectar y prevenir corrupción en las compras públicas sea auténtico?</li>
+    </ol>
+    </ol>
+  topic_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
   problem_description_summary: Cada una de las sesiones en línea se centra en un problema específico, que fue desarrollado en un informe resumido que describe las causas del problema, los enfoques actuales en los distintos países y las lecciones aprendidas de otros campos.
-  problem_description_link: https://docs.google.com/document/d/1JsbhW2nXFRCxqC_jxv-VFjyBHtqM7QwmG25Hu1v8E1Y/edit
-  problem_description_link_spanish: https://docs.google.com/document/d/1CF4dH-jP_MQ9wEh2o8PCbD3qWhLKmTEY7p8yxNHMiEQ/edit
-  english_document_link: https://docs.google.com/document/d/1_2EiE67ml3oxrFGJOIir1SCHXRtKnS7pdBEgBDsXNos/edit
+  problem_description_link: https://docs.google.com/document/d/119pdcRtI4Bz-A0PiAJs0fTXca10R3s9MK2_tsEsI6nc/edit#heading=h.gjdgxs
+  problem_description_link_spanish: https://docs.google.com/document/d/119pdcRtI4Bz-A0PiAJs0fTXca10R3s9MK2_tsEsI6nc/edit#heading=h.gjdgxs
+  english_document_link: https://docs.google.com/document/d/119pdcRtI4Bz-A0PiAJs0fTXca10R3s9MK2_tsEsI6nc/edit#heading=h.gjdgxs
   recommendations: false
   en:
     title: Assessing Public Awareness
@@ -635,247 +653,63 @@
     topic_description_summary: The problems have been fleshed out into a briefing designed to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
     problem_description_summary: Each online session is focused on a specific problem, that has been fleshed out into a briefing to describe the root causes of the problem, current approaches in different countries, and lessons learned from other domains.
   conference:
-    is_active: false
+    is_active: true
     is_active_info:
     date: Julio 25, 2017
     time: 10am - 12pm EST
     english_document_link: https://docs.google.com/document/d/1fB5_YmcMVVzQ825kguFdSjHlHqinq2eiAMwYBM7Krl4/edit
     supporting_participants:
-      - name: David Broniatowski
-        title: Assistant Professor, School of Engineering and Applied Science
-        affiliation: The George Washington University, US
+      - name: Alexandra Rusu
+        title: Founder
+        affiliation: Code4Romania, Europa
         twitter_url:
-      - name: Huiling Ding
-        title: Associate Professor
-        affiliation: North California State University, USA
-        twitter_url:
-      - name: John P. Elder
-        title: Distinguished Professor, Division of Health Promotion and Behavioral Science, Graduate School of Public Health
-        affiliation: San Diego State University
-        twitter_url:
-      - name: Dr. Gaya Gamhewage
-        title: Medical Officer, Infectious Hazards Management, Health Emergency Programme
-        affiliation: World Health Organization, Switzerland
-        twitter_url:
-      - name: Manuel Garcia-Herranz
-        title: Lead Research Scientist
-        affiliation: UNICEF Office of Innovation
-        twitter_url:
-      - name: Molly Jackman
-        title: Public Policy Research Manager,
-        affiliation: Facebook
-        twitter_url:
-      - name: José Ignacio Mata
-        title: Expert in Communication for Behavioral Change, Salud Mesoamerica 2015
-        affiliation: Honduras
-        twitter_url:
-      - name: Esteban Moro
-        title: Visiting Professor, MIT Media Lab, USA; Assistant Professor, Department of Mathematics, Carlos III University of Madrid, Spain
-        affiliation:
-        twitter_url:
-      - name: Mario Mosquera-Vasquez
-        title:  Chief, Communication for Development
-        affiliation:  UNICEF-India
-        twitter_url:
-      - name: Dr. Adriana Naim
-        title: Health Programs Coordinator
-        affiliation: RTI International, Guatemala
-        twitter_url:
-      - name: Monserrat Naranjo
-        title: Directora de Proyectos, Curarse en Salud
-        affiliation: Mexico
-        twitter_url:
-      - name: Wendy Nilsen
-        title: Program Director, Smart and Connected Health
-        affiliation: National Science Foundation, USA
-        twitter_url:
-      - name: Brendan Nyhan
-        title: Professor, Department of Government
-        affiliation: Dartmouth College, USA
-        twitter_url:
-      - name: Rafael Obregon
-        title:  Chief, Communication for Development
-        affiliation: UNICEF, USA
-        twitter_url:
-      - name: Nancy Pendarvis Harris
-        title: Vice President
-        affiliation: JSI, USA
-        twitter_url:
-      - name: Mathias Pollock
-        title: Social and Behavior Change Technical Advisor
-        affiliation: Population Services International
-        twitter_url:
-      - name: Lee Rainie
-        title: Director of Internet, Science and Technology Research
-        affiliation: Pew Research Center, USA
-        twitter_url:
-      - name: Alex Rutherford
-        title: Data Scientist
-        affiliation: UNICEF Innovation Unit, USA
-        twitter_url:
-      - name: Esmily Yusmary Ruiz Varón
-        title: Consultant, Transmissible Diseases
-        affiliation: Ministry of Health and Social Protection, Colombia
-        twitter_url:
-      - name: Dr. Magdalena Serpa
-        title: Senior Program Officer, Maternal, Newborn, Child Health & Nutrition
-        affiliation: PATH
-        twitter_url:
-      - name: Fabro Steibe
+      - name: Ania Calderon
         title: Executive Director
-        affiliation: Institute for Technology and Society, Brazil
+        affiliation: International Open Data Charter, Nortéamerica
         twitter_url:
-      - name: Joshua Tucker
-        title: Co-Director, Social Media and Political Participation Lab (Smapp)
-        affiliation: NYU, USA
+      - name: Andres Knobel
+        title: Consultant
+        affiliation: Tax Justice Network, Europa
         twitter_url:
-      - name: Dr. Lynn Weekes
+      - name: Andrew Hoppin
+        title: Chair
+        affiliation: Global Integrity, Nortéamerica
+        twitter_url:
+      - name: Georg Neumann
+        title: Senior Communications Manager
+        affiliation: Open Contracting Partnership, Nortéamerica
+        twitter_url:
+      - name: Hera Hussain
+        title: Community and Advocacy Manager
+        affiliation: Open Corporates, Europa
+        twitter_url:
+      - name: Madhumita Bhattacharyya
+        title: Partner at the Cognitive & Analytics Department
+        affiliation: IBM, Nortéamerica
+        twitter_url:
+      - name: Oscar Mendez
+        title: Program Associate
+        affiliation: The Alfred P. Sloan Foundation, Nortéamerica
+        twitter_url:
+      - name: Orlando A. Rojas
+        title: Project Manager
+        affiliation: Observatorio del Gasto Fiscal de Chile, Latinóamerica
+        twitter_url:
+      - name: Stephan Wolf
         title: CEO
-        affiliation: NPS Medicinewise, Australia
-      - name: Allison Wolff
-        title: Facebook
-        affiliation: USA
+        affiliation: Global Legal Entity Identifier Foundation, Europa
         twitter_url:
-    partner_participants:
-      - name: Panamá
-        people:
-          - name: Dr. María Eugenia Barnett de Antinori
-            title: Global Health Security Project Coordinator
-            affiliation: The Gorgas Memorial Institute for Health Studies
-            twitter_url:
-          - name: Dr. Israel Cedeño
-            title: International Epidemiological Surveillance Coordinator
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Lizbeth Cerezo
-            title: National Coordinator of Epidemiological Surveillance of Arbovirosis and Malaria
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Gliz Checa
-            title: Promotion Department
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Joel González
-            title: Communication Department
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Juan Pascale
-            title: Deputy Director
-            affiliation: The Gorgas Memorial Institute for Health Studies
-            twitter_url:
-          - name: Evidelia Saavedra
-            title: Promotion Department
-            affiliation: Ministry of Health
-            twitter_url:
-      - name: Argentina
-        people:
-          - name: Gaston De Rochebouët
-            title: Public Innovation National Direction
-            affiliation: Ministry of Modernization
-            twitter_url:
-          - name: Tomás Dominguez Vidal
-            title: Public Innovation National Direction
-            affiliation: Ministry of Modernization
-            twitter_url:
-          - name: Dr. Raul Forlenza
-            title: Department of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Andrea Jaitt
-            title: Communication Services
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Florencia Guedes
-            title: Communication Services
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Eugenio Mirkin
-            title: Department of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Jorge San Juan
-            title: Director of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-          - name: Dr. Teresa Varela
-            title: Department of Epidemiology
-            affiliation: Ministry of Health
-            twitter_url:
-      - name: Colombia
-        people:
-          - name: Ricardo Amortegui González
-            title: Coordinator, Communications Group
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Jairo Hernández Márquez
-            title: Coordinator, Healthy Territories Group, Subdepartment of Environmental Health
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Ana María Lara Salinas
-            title:  Advisor, Cooperation and International Relations
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Dr. María Mercedes Muñoz
-            title: Coordinator of the Public Health Surveillance Group, Demography and Epidemiology Department
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Julio Padilla
-            title: Specialist, Subdepartment of Communicable Diseases, Department of Promotion and Prevention
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-          - name: Mónica Lucía Ramírez
-            title: Subdepartment of Environmental Health
-            affiliation: Ministry of Health and Social Protection
-            twitter_url:
-      - name: Ciudad de Río Janeiro
-        people:
-          - name: Dr. Betina Durovni
-            title: Sub-Secretary of Primary Health
-            affiliation: Prevention and Surveillance
-            twitter_url:
-          - name: Cristina Boaretto
-            title: Health Promotion Superintendent
-            affiliation: Secretary of Health
-            twitter_url:
-          - name: Valeria Saraceni
-            title: Health Situation Analysis Coordination
-            affiliation: Secretary of Health
-            twitter_url:
-      - name: Banco Interamericano de Desarrollo
-        people:
-          - name: Rafael Anta
-            title: Lead Specialist
-            affiliation: Competitiveness and Innovation Division
-            twitter_url:
-          - name: Ralf Moreno
-            title: Project Manager
-            affiliation: Social Protection and Health Division
-            twitter_url:
-          - name: Diana Pinto
-            title: Health Lead Specialist, USA
-            affiliation: Social Protection and Health Division
-            twitter_url:
-      - name: The Governance Lab, NYU
-        people:
-          - name: Dr. Rafael Ayoub
-            title: Health Research Advisor
-            affiliation:
-            twitter_url:
-          - name: Professor Beth Simone Noveck
-            title: Director
-            affiliation:
-            twitter_url:
-          - name: María Hermosilla
-            title: Project Manager and Research Fellow
-            affiliation:
-            twitter_url:
+      - name: William (Bill) Nichols
+        title: Associate Director of Strategic Data Support
+        affiliation: Office of Financial Research, Nortéamerica
+        twitter_url:
+      - name: Zosia Sztykowski
+        title: Project Coordinator
+        affiliation: OpenOwnership, Europa
+        twitter_url:
     resources:
   post_conference:
-    is_active: false
-    takeaways:
-    takeaways_link: https://drive.google.com/open?id=1-UAASCeURMBhxHdgAqN3vfkHHLqQZ3wB0hHmK_m9GtE
+    is_active: true
+    takeaways: En cada sesión en línea, los participantes compartieron con los gobiernos ideas innovadoras para enfrentar el problema específico de la conferencia. Conoce las propuestas planteadas por los participantes en el siguiente documento.
+    takeaways_link: https://docs.google.com/document/d/1aXIoBxP9Q0lSFUK6xitskMBJwBBkWwhLH9YcYvRw4uE/edit#heading=h.or1al3z7fn0n
     action_items:
-    resources:
-  resources:
-    - name: Enhancing How Governments Assess Awareness of Zika
-      url: https://medium.com/smarter-crowdsourcing/enhancing-how-governments-assess-awareness-of-zika-15622564c00b#.ajkml2pfm
