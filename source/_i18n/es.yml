@@ -96,14 +96,14 @@ map:
     topic: TEMA
     organization: ORGANIZACIÓN
 register:
-  h1: Participa
+  h1: COMPARTE TU CONOCIMIENTO
+  h2: SMARTER CROWDSOURCING | ANTICORRUPCIÓN
   intro: >
-    <p>
-      A través de la iniciativa de <b>Smarter Crowdsourcing | Anticorrupción</b> se llevarán a cabo seis conferencias en línea, de dos horas de duración, durante los meses de junio y julio de 2017. El objetivo de las conferencias es el que expertos y expertas de todo el mundo dialoguen sobre enfoques innovadores y prácticos para combatir la corrupción y sus causas.
-    </p>
-    <p>Estos coloquios de pequeños grupos de personas tendrán el objetivo de aportar ideas sobre nuevas estrategias de combate a la corrupción en un diálogo con las y los funcionarios gubernamentales quienes serían las y los encargados de implementarlas.</p>
-    <p><b>Una vez terminadas las conferencias, las mejores ideas serán seleccionadas y se desarrollará una guía para la implementación rápida de las mismas, por parte del gobierno de México.</b></p>
-    <p><b>¿Te gustaría compartir tus conocimientos y habilidades para combatir la corrupción en México y conversar con expertos y expertas globales cómo tus buenas ideas podrían convertirse en soluciones implementables?</b> Participa en una conversación con el Gobierno Federal de México que está interesado en implementar nuevos enfoques y herramientas para combatir la corrupción.</p>
+    <p>Gracias por tu interés en <b>Smarter Crowdsourcing | Anticorrupción.</b> La búsqueda de expertos ha finalizado. Pronto publicaremos en este sitio las ideas y propuestas que surgieron como resultado de esta iniciativa. También podrás encontrar artículos y más información acerca del proceso y sus resultados en el blog de <a target="_blank" href="https://medium.com/smarter-crowdsourcing">Smarter Crowdsourcing</a> en Medium.</p>
+
+    <p>Entre mayo-julio 2017, The Governance Lab y el Banco Interamericano de Desarrollo en asociación con el gobierno de México, organizaron un serie semanal de conferencias en línea para discutir métodos innovadores y prácticos para atender distintos problemas y riesgos de corrupción.</p>
+
+    <p>Estas conversaciones entre grupos pequeños de especialistas tuvieron como objetivo fomentar una discusión crítica de nuevas estrategias contra la corrupción, en las que también participaron funcionarios del gobierno mexicano  y líderes de la sociedad civil. Para conocer más acerca de los temas de las conferencias visita la sección de <a href="/topics.html">temas</a>.</p>
   first_name: Nombre
   last_name: Apellido
   email: Correo electrónico

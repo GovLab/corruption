@@ -59,11 +59,14 @@ map:
     topic: Topic
     organization: Organization
 register:
-  h1: Participate
+  h1: SHARE YOUR EXPERTISE
+  h2: SMARTER CROWDSOURCING | ANTI-CORRUPTION
   intro: >
-    <p>To identify innovative yet practical approaches to fight corruption in Mexico, Smarter Crowdsourcing | Anti-corruption will host six online conferences during Summer 2017, convening global experts from a variety of fields, including public administration, data analytics, technology, business, and law enforcement. </p>
-    <p>In a series of 2-hour web-based conferences, experts from around the world will discuss innovative and practical ways to tackle the root causes of corruption. These small-group discussions are intended to foster brainstorming of actionable new strategies in conversation with those government officials responsible for tackling corruption in Mexico.</p>
-    <p><b>Would you like to lend your skills to tackle corruption in Mexico and deliberate with diverse innovators and professionals to refine good ideas into actionable projects?</b> Join a conversation with Mexico’s Federal Government who is interested in implementing new approaches to combatting corruption.</p>
+    <p>Thank you for your interest in <b>Smarter Crowdsourcing | Anticorrupción.</b> The call for expertise has finalized. Soon we will publish all ideas and proposals that have emerged as a result of this initiative on this website. You can also find articles and more information about the process and its results in the <a target="_blank" href="https://medium.com/smarter-crowdsourcing">Smarter Crowdsourcing</a> blog on Medium.</p>
+
+    <p>Between May-July 2017, the Governance Lab and the Inter-American Development Bank in partnership with the Government of Mexico, hosted a series of weekly online conferences to discuss innovative and practical methods for addressing the different problems and risks associated with corruption.</p>
+
+    <p>These conversations between small groups of specialists were intended to promote a critical discussion of new strategies against corruption, in which Mexican government officials and civil leaders also participated. To learn more about the themes of the conferences please visit our <a href="/topics.html">Topics</a> page.</p>
   first_name: Name
   last_name: Last Name
   email: Email
