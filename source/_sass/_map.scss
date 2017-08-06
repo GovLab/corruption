@@ -68,11 +68,15 @@ left: -60px;
   }
 
   .sector-column {
-    width: 25%;
+    width: 20%;
+  }
+
+  .interviewee-column {
+    width: 15%;
   }
 
   .topic-column {
-    width: 25%;
+    width: 20%;
     max-width: 0;
     overflow: hidden;
     text-overflow: ellipsis;

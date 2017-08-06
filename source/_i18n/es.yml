@@ -95,6 +95,7 @@ map:
     affiliation: SECTOR
     topic: TEMA
     organization: ORGANIZACIÓN
+    interviewee: ENTREVISTADO
 register:
   h1: Participa
   intro: >

@@ -9,15 +9,16 @@ $(document).ready(function() {
   var x = d3.scale.ordinal().rangePoints([0, width], 1);
 
   var continents = {
-    'Latin America and the Caribbean': {x: 300, y: 380},
+    'Latin America': {x: 300, y: 380},
     'Oceania': {x: 840, y: 450},
-    'Northern America': {x: 220, y: 180},
+    'North America': {x: 220, y: 180},
     'Europe': {x: 500, y: 190},
     'Asia': {x: 730, y: 250},
     'Africa': {x: 510, y: 320}
   };
 
   var visibleData = expertsData.map(function(obj, y) {
+    console.log(obj['REGION'])
     obj.radius = 6;
     obj.color = '#FFAA00';
     obj.cx = continents[obj['REGION']].x;
@@ -259,6 +260,7 @@ $(document).ready(function() {
     $tr.append($('<td>').text(obj['AFFILIATION 1']).addClass('sector-column'));
     $tr.append($('<td>').text(lst.join(', ')).addClass('topic-column'));
     $tr.append($('<td>').text(obj['ORGANIZATION']).addClass('organization-column'));
+    $tr.append($('<td>').text(obj['INTERVIEWEE']).addClass('interviewee-column'));
 
     $('.table-sortable').append($tr);
   });

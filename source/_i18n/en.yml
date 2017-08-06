@@ -58,6 +58,7 @@ map:
     affiliation: Affiliation
     topic: Topic
     organization: Organization
+    interviewee: Interviewee
 register:
   h1: Participate
   intro: >
