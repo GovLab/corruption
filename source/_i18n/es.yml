@@ -96,6 +96,7 @@ map:
     topic: TEMA
     organization: ORGANIZACIÓN
     interviewee: ENTREVISTADO
+    position: POSITION
 register:
   h1: COMPARTE TU CONOCIMIENTO
   h2: SMARTER CROWDSOURCING | ANTICORRUPCIÓN

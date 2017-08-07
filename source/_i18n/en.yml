@@ -59,6 +59,7 @@ map:
     topic: Topic
     organization: Organization
     interviewee: Interviewee
+    position: Position
 register:
   h1: SHARE YOUR EXPERTISE
   h2: SMARTER CROWDSOURCING | ANTI-CORRUPTION
