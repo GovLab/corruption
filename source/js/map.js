@@ -18,7 +18,6 @@ $(document).ready(function() {
   };
 
   var visibleData = expertsData.map(function(obj, y) {
-    console.log(obj['REGION'])
     obj.radius = 6;
     obj.color = '#FFAA00';
     obj.cx = continents[obj['REGION']].x;
@@ -45,6 +44,7 @@ $(document).ready(function() {
     circle.enter()
       .append("circle")
       .attr("r", function(d) { return d.radius; })
+      .attr("class", function(d) {return "interviewee-" + d.INTERVIEWEE; })
       .style("fill", function(d) { return d.color; })
       .call(force.drag);
 
