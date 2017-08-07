@@ -93,8 +93,7 @@ left: -60px;
     }
 
     &-N:after { 
-      content: 'close'; 
-      color: lighten(red, 14);
+      content: ''; 
     }
     &-Y:after { 
       content: 'check'; 
