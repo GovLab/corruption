@@ -50,7 +50,7 @@ left: -60px;
 
 
 .interviewee-Y {
-  fill: $theme-color !important;
+  // fill: $theme-color !important;
 }
 
 
@@ -77,30 +77,29 @@ left: -60px;
     width: 20%;
   }
 
-  td.interviewee-column { 
-    color: transparent; 
-    padding-left: 30px;
-  }
+  // td.interviewee-column { 
+  //   color: transparent; 
+  //   padding-left: 30px;
+  // }
 
-  .interviewee-column {
-    // text-align: center;
+  // .interviewee-column {
+  //   text-align: center;
+  //   width: 15%;
 
-    width: 15%;
+  //   &-Y:after,
+  //   &-N:after {
+  //     @extend .u-material-icons;
+  //   }
 
-    &-Y:after,
-    &-N:after {
-      @extend .u-material-icons;
-    }
-
-    &-N:after { 
-      content: 'close'; 
-      color: lighten(red, 14);
-    }
-    &-Y:after { 
-      content: 'check'; 
-      color: $theme-color;
-    }
-  }
+  //   &-N:after { 
+  //     content: 'close'; 
+  //     color: lighten(red, 14);
+  //   }
+  //   &-Y:after { 
+  //     content: 'check'; 
+  //     color: $theme-color;
+  //   }
+  // }
 
   .topic-column {
     width: 20%;
