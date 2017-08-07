@@ -49,6 +49,12 @@ left: -60px;
 }
 
 
+.interviewee-Y {
+  fill: $theme-color !important;
+}
+
+
+
 .filters1,
 .filters2 {
   text-align: left;
@@ -68,11 +74,36 @@ left: -60px;
   }
 
   .sector-column {
-    width: 25%;
+    width: 20%;
+  }
+
+  td.interviewee-column { 
+    color: transparent; 
+    padding-left: 30px;
+  }
+
+  .interviewee-column {
+    // text-align: center;
+
+    width: 15%;
+
+    &-Y:after,
+    &-N:after {
+      @extend .u-material-icons;
+    }
+
+    &-N:after { 
+      content: 'close'; 
+      color: lighten(red, 14);
+    }
+    &-Y:after { 
+      content: 'check'; 
+      color: $theme-color;
+    }
   }
 
   .topic-column {
-    width: 25%;
+    width: 20%;
     max-width: 0;
     overflow: hidden;
     text-overflow: ellipsis;
