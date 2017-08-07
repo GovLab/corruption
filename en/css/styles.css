@@ -484,8 +484,7 @@ li {
 .table-sortable .interviewee-column {
   width: 15%; }
   .table-sortable .interviewee-column-N:after {
-    content: 'close';
-    color: #ff4747; }
+    content: ''; }
   .table-sortable .interviewee-column-Y:after {
     content: 'check';
     color: #86AE51; }
