@@ -9,9 +9,9 @@ $(document).ready(function() {
   var x = d3.scale.ordinal().rangePoints([0, width], 1);
 
   var continents = {
-    'Latin America and the Caribbean': {x: 300, y: 380},
+    'Latin America': {x: 300, y: 380},
     'Oceania': {x: 840, y: 450},
-    'Northern America': {x: 220, y: 180},
+    'North America': {x: 220, y: 180},
     'Europe': {x: 500, y: 190},
     'Asia': {x: 730, y: 250},
     'Africa': {x: 510, y: 320}
@@ -44,6 +44,7 @@ $(document).ready(function() {
     circle.enter()
       .append("circle")
       .attr("r", function(d) { return d.radius; })
+      .attr("class", function(d) {return "interviewee-" + d.INTERVIEWEE; })
       .style("fill", function(d) { return d.color; })
       .call(force.drag);
 
@@ -55,6 +56,7 @@ $(document).ready(function() {
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
     });
+
 
     force.start();
   }
@@ -259,6 +261,7 @@ $(document).ready(function() {
     $tr.append($('<td>').text(obj['AFFILIATION 1']).addClass('sector-column'));
     $tr.append($('<td>').text(lst.join(', ')).addClass('topic-column'));
     $tr.append($('<td>').text(obj['ORGANIZATION']).addClass('organization-column'));
+    $tr.append($('<td>').text(obj['INTERVIEWEE']).addClass('interviewee-column interviewee-column-' + obj['INTERVIEWEE']));
 
     $('.table-sortable').append($tr);
   });

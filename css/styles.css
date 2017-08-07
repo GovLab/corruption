@@ -2,7 +2,7 @@
   opacity: .3;
   pointer-events: none; }
 
-.u-material-icons {
+.u-material-icons, .table-sortable .interviewee-column-Y:after, .table-sortable .interviewee-column-N:after {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -462,6 +462,9 @@ li {
       display: block;
       padding-bottom: 20px; } }
 
+.interviewee-Y {
+  fill: #86AE51 !important; }
+
 .filters1,
 .filters2 {
   text-align: left; }
@@ -474,9 +477,20 @@ li {
 .table-sortable .name-cloumn {
   width: 25%; }
 .table-sortable .sector-column {
-  width: 25%; }
+  width: 20%; }
+.table-sortable td.interviewee-column {
+  color: transparent;
+  padding-left: 30px; }
+.table-sortable .interviewee-column {
+  width: 15%; }
+  .table-sortable .interviewee-column-N:after {
+    content: 'close';
+    color: #ff4747; }
+  .table-sortable .interviewee-column-Y:after {
+    content: 'check';
+    color: #86AE51; }
 .table-sortable .topic-column {
-  width: 25%;
+  width: 20%;
   max-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
