@@ -261,7 +261,7 @@ $(document).ready(function() {
     $tr.append($('<td>').text(obj['AFFILIATION 1']).addClass('sector-column'));
     $tr.append($('<td>').text(lst.join(', ')).addClass('topic-column'));
     $tr.append($('<td>').text(obj['ORGANIZATION']).addClass('organization-column'));
-    // $tr.append($('<td>').text(obj['INTERVIEWEE']).addClass('interviewee-column interviewee-column-' + obj['INTERVIEWEE']));
+    $tr.append($('<td>').text(obj['POSITION']).addClass('position-column'));
 
     $('.table-sortable').append($tr);
   });
