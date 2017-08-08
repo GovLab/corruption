@@ -69,8 +69,8 @@ left: -60px;
     background-color: $main-color;
   }
 
-  .name-column { 
-    width: 20%; 
+  .name-column {
+    width: 20%;
     min-width: 256px;
   }
 
@@ -79,8 +79,8 @@ left: -60px;
     max-width: 200px;
   }
 
-  // td.interviewee-column { 
-  //   color: transparent; 
+  // td.interviewee-column {
+  //   color: transparent;
   //   padding-left: 30px;
   // }
 
@@ -93,12 +93,12 @@ left: -60px;
   //     @extend .u-material-icons;
   //   }
 
-  //   &-N:after { 
-  //     content: 'close'; 
+  //   &-N:after {
+  //     content: 'close';
   //     color: lighten(red, 14);
   //   }
-  //   &-Y:after { 
-  //     content: 'check'; 
+  //   &-Y:after {
+  //     content: 'check';
   //     color: $theme-color;
   //   }
   // }
@@ -112,8 +112,16 @@ left: -60px;
   }
 
   .organization-column {
-    width: 25%;
-    max-width: 0;
+    width: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .position-column {
+    width: 200px;
+    max-width: 200px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -155,7 +163,7 @@ left: -60px;
 
 .table-sortable {
   .name-column {
-    
+
   }
 
   .sector-column {
