@@ -480,21 +480,15 @@ li {
 .table-sortable .topic-column {
   width: 20%;
   max-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap; }
+  overflow: hidden; }
 .table-sortable .organization-column {
   width: 200px;
   max-width: 200px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap; }
+  overflow: hidden; }
 .table-sortable .position-column {
-  width: 200px;
-  max-width: 200px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap; }
+  width: 22%;
+  min-width: 150px;
+  overflow: hidden; }
 
 .expert-list-section {
   padding-top: 0;
@@ -516,17 +510,17 @@ li {
     background-color: #769947; }
 
 .table-sortable .sector-column {
-  width: 20%; }
+  width: 22%; }
   @media (max-width: 600px) {
     .table-sortable .sector-column {
       display: none; } }
 .table-sortable .topic-column {
-  width: 25%; }
+  width: 20%; }
   @media (max-width: 600px) {
     .table-sortable .topic-column {
       display: none; } }
 .table-sortable .organization-column {
-  width: 40%; }
+  width: 30%; }
   @media (max-width: 960px) {
     .table-sortable .organization-column {
       display: none; } }
