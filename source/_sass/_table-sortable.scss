@@ -1,5 +1,7 @@
 .table-sortable {
-  td { padding: 15px 0; }
+  td { 
+    padding: 15px 5px 15px 0; 
+  }
 
   &__head-cell {
     background-color: darken($main-color, 4);
@@ -20,6 +22,9 @@
   &__control {
     float: left;
     padding: 15px;
+    @include breakpoint($medium) {
+      padding: 14px 8px;
+    }
     color: rgba(black, .2);
 
     > i { vertical-align: middle; }

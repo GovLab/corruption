@@ -71,60 +71,23 @@ left: -60px;
 
   .name-column {
     width: 20%;
-    min-width: 256px;
+    min-width: 135px;
   }
 
   .sector-column {
-    width: 200px;
-    max-width: 200px;
+    min-width: 120px;
   }
 
-  // td.interviewee-column {
-  //   color: transparent;
-  //   padding-left: 30px;
-  // }
-
-  // .interviewee-column {
-  //   text-align: center;
-  //   width: 15%;
-
-  //   &-Y:after,
-  //   &-N:after {
-  //     @extend .u-material-icons;
-  //   }
-
-  //   &-N:after {
-  //     content: 'close';
-  //     color: lighten(red, 14);
-  //   }
-  //   &-Y:after {
-  //     content: 'check';
-  //     color: $theme-color;
-  //   }
-  // }
-
   .topic-column {
-    width: 20%;
-    max-width: 0;
-    overflow: hidden;
-    // text-overflow: ellipsis;
-    // white-space: nowrap;
+    min-width: 135px;
   }
 
   .organization-column {
-    width: 200px;
-    max-width: 200px;
-    overflow: hidden;
-    // text-overflow: ellipsis;
-    // white-space: nowrap;
   }
 
   .position-column {
-    width: 22%;
-    min-width: 150px;
-    overflow: hidden;
-    // text-overflow: ellipsis;
-    // white-space: nowrap;
+    width: 20%;
+    min-width: 135px;
   }
 }
 
@@ -163,11 +126,12 @@ left: -60px;
 
 .table-sortable {
   .name-column {
-
+    @include breakpoint(max-width 600px) {
+      width: 50%
+    }
   }
 
   .sector-column {
-    width: 22%;
     @include breakpoint(max-width 600px) {
       display: none;
     }
@@ -175,16 +139,20 @@ left: -60px;
   }
 
   .topic-column {
-    width: 20%;
     @include breakpoint(max-width 600px) {
       display: none;
     }
   }
 
   .organization-column {
-    width: 30%;
     @include breakpoint(max-width 960px) {
       display: none;
+    }
+  }
+
+  .position-column {
+    @include breakpoint(max-width 600px) {
+      width: 50%
     }
   }
 
@@ -262,18 +230,18 @@ left: -60px;
 
 }
 
-.table-sortable th:first-child, .table-sortable td:first-child {
-  @media (max-width: 500px) {
-    width: 20px;
-  }
-}
-.table-sortable__head-cell .name-column {
-  @media (max-width: 500px) {
-    width: 20px;
-  }
-}
-.table-sortable .topic-column {
-  @media (max-width: 500px) {
-    width: 45%;
-  }
-}
+// .table-sortable th:first-child, .table-sortable td:first-child {
+//   @media (max-width: 500px) {
+//     width: 20px;
+//   }
+// }
+// .table-sortable__head-cell .name-column {
+//   @media (max-width: 500px) {
+//     width: 20px;
+//   }
+// }
+// .table-sortable .topic-column {
+//   @media (max-width: 500px) {
+//     width: 45%;
+//   }
+// }
