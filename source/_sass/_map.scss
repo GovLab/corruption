@@ -50,7 +50,7 @@ left: -60px;
 
 
 .interviewee-Y {
-  fill: $theme-color !important;
+  // fill: $theme-color !important;
 }
 
 
@@ -69,37 +69,39 @@ left: -60px;
     background-color: $main-color;
   }
 
-  .name-cloumn {
-    width: 25%;
+  .name-column { 
+    width: 20%; 
+    min-width: 256px;
   }
 
   .sector-column {
-    width: 20%;
+    width: 200px;
+    max-width: 200px;
   }
 
-  td.interviewee-column { 
-    color: transparent; 
-    padding-left: 30px;
-  }
+  // td.interviewee-column { 
+  //   color: transparent; 
+  //   padding-left: 30px;
+  // }
 
-  .interviewee-column {
-    // text-align: center;
+  // .interviewee-column {
+  //   text-align: center;
+  //   width: 15%;
 
-    width: 15%;
+  //   &-Y:after,
+  //   &-N:after {
+  //     @extend .u-material-icons;
+  //   }
 
-    &-Y:after,
-    &-N:after {
-      @extend .u-material-icons;
-    }
-
-    &-N:after { 
-      content: ''; 
-    }
-    &-Y:after { 
-      content: 'check'; 
-      color: $theme-color;
-    }
-  }
+  //   &-N:after { 
+  //     content: 'close'; 
+  //     color: lighten(red, 14);
+  //   }
+  //   &-Y:after { 
+  //     content: 'check'; 
+  //     color: $theme-color;
+  //   }
+  // }
 
   .topic-column {
     width: 20%;
@@ -153,11 +155,11 @@ left: -60px;
 
 .table-sortable {
   .name-column {
-
+    
   }
 
   .sector-column {
-    width: 250px;
+    width: 20%;
     @include breakpoint(max-width 600px) {
       display: none;
     }
@@ -165,10 +167,14 @@ left: -60px;
   }
 
   .topic-column {
-
+    width: 25%;
+    @include breakpoint(max-width 600px) {
+      display: none;
+    }
   }
 
   .organization-column {
+    width: 40%;
     @include breakpoint(max-width 960px) {
       display: none;
     }
