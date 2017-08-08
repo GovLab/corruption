@@ -2,7 +2,7 @@
   opacity: .3;
   pointer-events: none; }
 
-.u-material-icons, .table-sortable .interviewee-column-Y:after, .table-sortable .interviewee-column-N:after {
+.u-material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -462,9 +462,6 @@ li {
       display: block;
       padding-bottom: 20px; } }
 
-.interviewee-Y {
-  fill: #86AE51 !important; }
-
 .filters1,
 .filters2 {
   text-align: left; }
@@ -474,20 +471,12 @@ li {
 
 .table-sortable th {
   background-color: #2c4758; }
-.table-sortable .name-cloumn {
-  width: 25%; }
+.table-sortable .name-column {
+  width: 20%;
+  min-width: 256px; }
 .table-sortable .sector-column {
-  width: 20%; }
-.table-sortable td.interviewee-column {
-  color: transparent;
-  padding-left: 30px; }
-.table-sortable .interviewee-column {
-  width: 15%; }
-  .table-sortable .interviewee-column-N:after {
-    content: ''; }
-  .table-sortable .interviewee-column-Y:after {
-    content: 'check';
-    color: #86AE51; }
+  width: 200px;
+  max-width: 200px; }
 .table-sortable .topic-column {
   width: 20%;
   max-width: 0;
@@ -521,13 +510,20 @@ li {
     background-color: #769947; }
 
 .table-sortable .sector-column {
-  width: 250px; }
+  width: 20%; }
   @media (max-width: 600px) {
     .table-sortable .sector-column {
       display: none; } }
-@media (max-width: 960px) {
-  .table-sortable .organization-column {
-    display: none; } }
+.table-sortable .topic-column {
+  width: 25%; }
+  @media (max-width: 600px) {
+    .table-sortable .topic-column {
+      display: none; } }
+.table-sortable .organization-column {
+  width: 40%; }
+  @media (max-width: 960px) {
+    .table-sortable .organization-column {
+      display: none; } }
 
 .explore-map {
   text-align: center;
