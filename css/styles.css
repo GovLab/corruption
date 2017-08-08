@@ -473,22 +473,14 @@ li {
   background-color: #2c4758; }
 .table-sortable .name-column {
   width: 20%;
-  min-width: 256px; }
+  min-width: 135px; }
 .table-sortable .sector-column {
-  width: 200px;
-  max-width: 200px; }
+  min-width: 120px; }
 .table-sortable .topic-column {
-  width: 20%;
-  max-width: 0;
-  overflow: hidden; }
-.table-sortable .organization-column {
-  width: 200px;
-  max-width: 200px;
-  overflow: hidden; }
+  min-width: 135px; }
 .table-sortable .position-column {
-  width: 22%;
-  min-width: 150px;
-  overflow: hidden; }
+  width: 20%;
+  min-width: 135px; }
 
 .expert-list-section {
   padding-top: 0;
@@ -509,21 +501,21 @@ li {
   .button--active:hover {
     background-color: #769947; }
 
-.table-sortable .sector-column {
-  width: 22%; }
-  @media (max-width: 600px) {
-    .table-sortable .sector-column {
-      display: none; } }
-.table-sortable .topic-column {
-  width: 20%; }
-  @media (max-width: 600px) {
-    .table-sortable .topic-column {
-      display: none; } }
-.table-sortable .organization-column {
-  width: 30%; }
-  @media (max-width: 960px) {
-    .table-sortable .organization-column {
-      display: none; } }
+@media (max-width: 600px) {
+  .table-sortable .name-column {
+    width: 50%; } }
+@media (max-width: 600px) {
+  .table-sortable .sector-column {
+    display: none; } }
+@media (max-width: 600px) {
+  .table-sortable .topic-column {
+    display: none; } }
+@media (max-width: 960px) {
+  .table-sortable .organization-column {
+    display: none; } }
+@media (max-width: 600px) {
+  .table-sortable .position-column {
+    width: 50%; } }
 
 .explore-map {
   text-align: center;
@@ -577,20 +569,8 @@ li {
   .reset-filters1:hover, .reset-filters2:hover {
     opacity: 1; }
 
-@media (max-width: 500px) {
-  .table-sortable th:first-child, .table-sortable td:first-child {
-    width: 20px; } }
-
-@media (max-width: 500px) {
-  .table-sortable__head-cell .name-column {
-    width: 20px; } }
-
-@media (max-width: 500px) {
-  .table-sortable .topic-column {
-    width: 45%; } }
-
 .table-sortable td {
-  padding: 15px 0; }
+  padding: 15px 5px 15px 0; }
 .table-sortable__head-cell {
   background-color: #253c4a;
   padding: 0;
@@ -605,6 +585,9 @@ li {
   float: left;
   padding: 15px;
   color: rgba(0, 0, 0, 0.2); }
+  @media (min-width: 40em) {
+    .table-sortable__control {
+      padding: 14px 8px; } }
   .table-sortable__control > i {
     vertical-align: middle; }
   .table-sortable__control:hover {
