@@ -484,8 +484,14 @@ li {
   text-overflow: ellipsis;
   white-space: nowrap; }
 .table-sortable .organization-column {
-  width: 25%;
-  max-width: 0;
+  width: 200px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+.table-sortable .position-column {
+  width: 200px;
+  max-width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
