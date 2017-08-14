@@ -34,22 +34,17 @@ custom_body: homepage
         <p>{% t index.intro.p1 %}</p>
       </div>
     </div>
-    <div class="row align-center">
-      <div class="text-centered" style="margin-bottom: -60px; z-index: 1;">
-        <a href="{{'/about.html' | relative_url}}" class='button button--accent-color'>{% t global.about %}</a> <a href="{{'/register.html' | relative_url}}" class='button button--accent-color'>{% t global.participate %}</a>
-      </div>
-    </div>
   </section>
 
-<!--     <section>
+    <section>
       <a href="{{'/map.html' | relative_url}}" class="divider explore-map"><h5>{% t index.explore_the_expert_map %}</h5></a>
       <div class="main-buttons main-buttons__map">
-        <a href="{{'/register.html' | relative_url}}" class="button button--map button--accent-color">{% t index.participate %}</a>
-        <a href="{{'/topics.html' | relative_url}}" class="button button--map button--accent-color">{% t global.topics %}</a>
+          <a href="{{'/about.html' | relative_url}}" class='button button--accent-color'>{% t global.about %}</a>
+          <a href="{{'/register.html' | relative_url}}" class="button button--map button--accent-color">{% t index.participate %}</a>
       </div>
-    </section> -->
+    </section>
 
-    <section style="z-index: 0;">
+    <section style="z-index: 0; margin-top: -25px;">
       <div class="row expanded">
 
         {% for topic in site.data.topics %}
