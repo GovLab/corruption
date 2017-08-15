@@ -478,6 +478,8 @@ li {
   min-width: 120px; }
 .table-sortable .topic-column {
   min-width: 135px; }
+.table-sortable .organization-column {
+  width: 20%; }
 .table-sortable .position-column {
   width: 20%;
   min-width: 135px; }
@@ -555,7 +557,8 @@ li {
     text-align: right;
     right: 0; }
 
-.reset-filters1, .reset-filters2 {
+.reset-filters1,
+.reset-filters2 {
   font-size: 1rem;
   font-weight: 400;
   text-transform: none;
@@ -566,7 +569,8 @@ li {
   opacity: .5;
   position: relative;
   z-index: 20; }
-  .reset-filters1:hover, .reset-filters2:hover {
+  .reset-filters1:hover,
+  .reset-filters2:hover {
     opacity: 1; }
 
 .table-sortable td {
