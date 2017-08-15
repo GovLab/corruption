@@ -92,7 +92,7 @@ map:
     asia: Asia
   columns:
     name: NOMBRE
-    affiliation: SECTOR
+    sector: SECTOR
     topic: TEMA
     organization: ORGANIZACIÓN
     interviewee: ENTREVISTADO
