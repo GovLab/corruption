@@ -75,7 +75,8 @@ custom_body: homepage
             <div class="topic__date">
               <h6>{% t global.conference_on %}</h6>
               <span class="topic__month">{{ topic.conference.date | date: "%b"}}</span>
-              <em class="topic__day">{{ topic.conference.date | date: "%d" }}</em>
+              <span class="topic__day">{{ topic.conference.date | date: "%d" }}</span>
+              <span class="topic__year">{{ topic.conference.date | date: "%Y" }}</span>
             </div>
           </div>
           {% endfor %}
