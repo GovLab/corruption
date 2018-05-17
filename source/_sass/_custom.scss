@@ -345,3 +345,28 @@
 }
 
 .main-buttons__map { margin-bottom: 0px; margin-top: -44px}
+
+.button--right-small {
+    padding: 10px 20px;
+    margin: 0;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    line-height: 1;
+}
+
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.8);
+  .sticky__title {
+    font-size: 1.2rem;
+  }
+  p {
+    font-weight: 400;
+  }
+  img {
+    float: left;
+    width: 100px;
+    margin-right: 40px;
+  }
+}
