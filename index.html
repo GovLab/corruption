@@ -26,6 +26,17 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://anticorruption.smartercrowdsourcing.org" />
 <meta property="og:image" content="http://anticorruption.smartercrowdsourcing.org/images/anti-corruption-og-image.png" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40012093-9', 'auto');
+  ga('send', 'pageview');
+
+</script>
     </head>
 
     <body class="homepage">
@@ -78,8 +89,8 @@
 
     </div>
     <div class="text-centered" style="margin-bottom: -60px; z-index: 1;">
-      <a href='/files/scac-es_web.pdf' target="_blank" class='button button--accent-color'>Descarga el Reporte Final (ES)</a>
-      <a href='/files/scac_web.pdf' target="_blank" class='button button--accent-color'>Read the Final Report (EN)</a>
+      <a href='/files/scac-es_web.pdf' target="_blank" class='button button--accent-color' class="file-report-es">Descarga el Reporte Final (ES)</a>
+      <a href='/files/scac_web.pdf' target="_blank" class='button button--accent-color' class="file-report-en">Read the Final Report (EN)</a>
     </div>
 
   </section>
@@ -305,14 +316,26 @@
       <div class="row">
         <div class="column small-12">
           <i class="material-icons sticky__close js-close-sticky">close</i>
-          <a href="/files/scac-es_web.pdf"><img src="/images/scac-cover.png"></a>
+          <a href="/files/scac-es_web.pdf" target="_blank" class="file-report-es"><img src="/images/scac-cover.png"></a>
           <h3 class="sticky__title">Smarter Crowdsourcing for Anti-Corruption</h3>
-          <p>Manual de propuestas legales, técnicas y de políticas innovadoras, y una guía para su implementación <br>Descarga el Reporte Final <a href="/files/scac-es_web.pdf">aqui</a>.</p>
+          <p>Manual de propuestas legales, técnicas y de políticas innovadoras, y una guía para su implementación <br>Descarga el Reporte Final <a href="/files/scac-es_web.pdf" target="_blank" class="file-report-es">aqui</a>.</p>
         </div>
       </div>
     </div>
 
   </main>
+
+  <script type="text/javascript">
+    $(".file-report-en").on('click', function() {
+      //  ga('send', 'event', [eventCategory], [eventAction], [eventLabel], [eventValue]);
+      ga('send', 'event', 'File', 'download', 'Final Report PDF (EN)');
+    });
+
+    $(".file-report-es").on('click', function() {
+      //  ga('send', 'event', [eventCategory], [eventAction], [eventLabel], [eventValue]);
+      ga('send', 'event', 'File', 'download', 'Final Report PDF (ES)');
+    });
+  </script>
 
 
       <div id="overlay" class="js-overlay"></div>
@@ -356,17 +379,6 @@
 <script src="/js/scripts.js"></script>
 <script src="/js/form-validation.js"></script>
 <script src="/js/fadein.js"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-40012093-9', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
     </body>
 </html>
